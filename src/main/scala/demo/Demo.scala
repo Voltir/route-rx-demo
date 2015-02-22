@@ -13,30 +13,30 @@ import Framework._
 import demo.Users._
 
 sealed trait Screen
-case object DemoScreen extends Screen
+case object IndexScreen extends Screen
 case object AboutScreen extends Screen
+case object UsersScreen extends Screen
 case class ProfileScreen(user: User) extends Screen
 
 object Demo extends js.JSApp {
 
-  println(upickle.write(DemoScreen))
+  val router = Router.generate[Screen](IndexScreen)
+  //val temp: Var[Screen] = Var(ProfileScreen(Users.data.head._2))
 
-  val router = Router.generate[Screen](DemoScreen)
-//
-//
-//  private lazy val current: Rx[HtmlTag] = Rx {
-//    router.current() match {
-//      case DemoScreen => div("DEMO")
-//      case AboutScreen => div("ABOUT")
-//      case ProfileScreen(user) => div("PROFILE")
-//    }
-//  }
+  private lazy val current: Rx[HtmlTag] = Rx {
+    router.current() match {
+      case IndexScreen => screens.Index.screen()
+      case AboutScreen => screens.About.screen()
+      case UsersScreen => screens.Users.screen()
+      case ProfileScreen(user) => screens.Profile.screen(user)
+    }
+  }
+
+  lazy val view = {
+    div(current)
+  }
 
   def main(): Unit = {
-    val paragraph = dom.document.createElement("p")
-    paragraph.innerHTML = "<strong>WIP!</strong>"
-
-
-    dom.document.getElementById("playground").appendChild(paragraph)
+    dom.document.body.appendChild(view.render)
   }
 }
