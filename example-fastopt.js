@@ -7362,7 +7362,9 @@ ScalaJS.m.sr_Statics$ = (function() {
 /** @constructor */
 ScalaJS.c.Ldemo_Demo$ = (function() {
   ScalaJS.c.O.call(this);
-  this.router$1 = null
+  this.router$1 = null;
+  this.current$1 = null;
+  this.bitmap$0$1 = false
 });
 ScalaJS.c.Ldemo_Demo$.prototype = new ScalaJS.h.O();
 ScalaJS.c.Ldemo_Demo$.prototype.constructor = ScalaJS.c.Ldemo_Demo$;
@@ -7439,11 +7441,11 @@ ScalaJS.h.Ldemo_Demo$$anon$1 = (function() {
 ScalaJS.h.Ldemo_Demo$$anon$1.prototype = ScalaJS.c.Ldemo_Demo$$anon$1.prototype;
 ScalaJS.c.Ldemo_Demo$$anon$1.prototype.init___ = (function() {
   var y = new ScalaJS.c.Ldemo_Demo$$anon$1$$anonfun$2().init___Ldemo_Demo$$anon$1(this);
-  var jsx$2 = new ScalaJS.c.T2().init___O__O("/demo", y);
+  var jsx$2 = new ScalaJS.c.T2().init___O__O("demo", y);
   var y$1 = new ScalaJS.c.Ldemo_Demo$$anon$1$$anonfun$3().init___Ldemo_Demo$$anon$1(this);
-  var jsx$1 = new ScalaJS.c.T2().init___O__O("/about", y$1);
+  var jsx$1 = new ScalaJS.c.T2().init___O__O("about", y$1);
   var y$2 = new ScalaJS.c.Ldemo_Demo$$anon$1$$anonfun$4().init___Ldemo_Demo$$anon$1(this);
-  var array = [jsx$2, jsx$1, new ScalaJS.c.T2().init___O__O("/profile", y$2)];
+  var array = [jsx$2, jsx$1, new ScalaJS.c.T2().init___O__O("profile", y$2)];
   var this$8 = new ScalaJS.c.scm_MapBuilder().init___sc_GenMap(ScalaJS.m.sci_Map$EmptyMap$());
   matchEnd4: {
     var i = 0;
@@ -7484,9 +7486,9 @@ ScalaJS.c.Ldemo_Demo$$anon$1.prototype.linkGiven__T__Ldemo_Screen__s_concurrent_
 });
 ScalaJS.c.Ldemo_Demo$$anon$1.prototype.urlFor__Ldemo_Screen__T = (function(link) {
   if (ScalaJS.is.Ldemo_DemoScreen$(link)) {
-    return "/demo"
+    return "demo"
   } else if (ScalaJS.is.Ldemo_AboutScreen$(link)) {
-    return "/about"
+    return "about"
   } else if (ScalaJS.is.Ldemo_ProfileScreen(link)) {
     var x4 = ScalaJS.as.Ldemo_ProfileScreen(link);
     ScalaJS.m.sci_List$();
@@ -7498,7 +7500,7 @@ ScalaJS.c.Ldemo_Demo$$anon$1.prototype.urlFor__Ldemo_Screen__T = (function(link)
     var this$5 = ScalaJS.as.sci_List(ScalaJS.s.sc_TraversableLike$class__to__sc_TraversableLike__scg_CanBuildFrom__O(xs, cbf));
     var asTraversable = ScalaJS.m.s_Predef$().singleton$und$less$colon$less$2;
     var allParts = ScalaJS.as.sci_List(ScalaJS.s.scg_GenericTraversableTemplate$class__flatten__scg_GenericTraversableTemplate__F1__sc_GenTraversable(this$5, asTraversable));
-    return ("/profile/" + ScalaJS.s.sc_TraversableOnce$class__mkString__sc_TraversableOnce__T__T__T__T(allParts, "", "/", ""))
+    return ("profile/" + ScalaJS.s.sc_TraversableOnce$class__mkString__sc_TraversableOnce__T__T__T__T(allParts, "", "/", ""))
   } else {
     throw new ScalaJS.c.s_MatchError().init___O(link)
   }
