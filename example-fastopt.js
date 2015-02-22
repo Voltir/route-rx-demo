@@ -777,6 +777,23 @@ ScalaJS.fround = ScalaJS.g["Math"]["fround"] ||
     return +v;
   });
 
+ScalaJS.is.F0 = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.F0)))
+});
+ScalaJS.as.F0 = (function(obj) {
+  return ((ScalaJS.is.F0(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "scala.Function0"))
+});
+ScalaJS.isArrayOf.F0 = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.F0)))
+});
+ScalaJS.asArrayOf.F0 = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.F0(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Lscala.Function0;", depth))
+});
+ScalaJS.d.F0 = new ScalaJS.ClassTypeData({
+  F0: 0
+}, true, "scala.Function0", (void 0), {
+  F0: 1
+});
 ScalaJS.is.F2 = (function(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.F2)))
 });
@@ -1270,7 +1287,64 @@ ScalaJS.c.Ldemo_screens_Common$.prototype.columns__T__Lscalatags_JsDom$TypedTag 
 });
 ScalaJS.c.Ldemo_screens_Common$.prototype.nav$lzycompute__p1__Lscalatags_JsDom$TypedTag = (function() {
   if ((!this.bitmap$0$1)) {
-    this.nav$1 = this.row__Lscalatags_JsDom$TypedTag().apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([this.columns__T__Lscalatags_JsDom$TypedTag("two").apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([this.v$1.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Lscalatags_JsDom$all$(), new ScalaJS.c.Lscalatags_JsDom$StringFrag().init___T("Index"))]))])), this.columns__T__Lscalatags_JsDom$TypedTag("two").apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([this.v$1.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Lscalatags_JsDom$all$(), new ScalaJS.c.Lscalatags_JsDom$StringFrag().init___T("About"))]))])), this.columns__T__Lscalatags_JsDom$TypedTag("two").apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([this.v$1.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Lscalatags_JsDom$all$(), new ScalaJS.c.Lscalatags_JsDom$StringFrag().init___T("Users"))]))]))]));
+    var jsx$12 = this.row__Lscalatags_JsDom$TypedTag();
+    var jsx$11 = this.columns__T__Lscalatags_JsDom$TypedTag("two");
+    var jsx$10 = this.v$1;
+    ScalaJS.m.Lscalatags_JsDom$all$();
+    var jsx$9 = new ScalaJS.c.Lscalatags_JsDom$StringFrag().init___T("Index");
+    var this$3 = ScalaJS.m.Lscalatags_JsDom$all$().onclick$1;
+    var v = new ScalaJS.c.sjsr_AnonFunction0().init___sjs_js_Function0((function() {
+      ScalaJS.m.Ldemo_Demo$().router$1.$goto__O__V(ScalaJS.m.Ldemo_IndexScreen$())
+    }));
+    var this$2 = ScalaJS.m.Lscalatags_JsDom$all$();
+    var evidence$2 = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(f$2) {
+      var f = ScalaJS.as.F0(f$2);
+      return (function(f$1) {
+        return (function() {
+          return f$1.apply__O()
+        })
+      })(f)
+    }));
+    var ev = new ScalaJS.c.Lscalatags_LowPriorityImplicits$$anon$1().init___Lscalatags_LowPriorityImplicits__F1(this$2, evidence$2);
+    var jsx$8 = jsx$11.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$10.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$9, new ScalaJS.c.Lscalatags_generic_AttrPair().init___Lscalatags_generic_Attr__O__Lscalatags_generic_AttrValue(this$3, v, ev)]))]));
+    var jsx$7 = this.columns__T__Lscalatags_JsDom$TypedTag("two");
+    var jsx$6 = this.v$1;
+    ScalaJS.m.Lscalatags_JsDom$all$();
+    var jsx$5 = new ScalaJS.c.Lscalatags_JsDom$StringFrag().init___T("About");
+    var this$6 = ScalaJS.m.Lscalatags_JsDom$all$().onclick$1;
+    var v$1 = new ScalaJS.c.sjsr_AnonFunction0().init___sjs_js_Function0((function() {
+      ScalaJS.m.Ldemo_Demo$().router$1.$goto__O__V(ScalaJS.m.Ldemo_AboutScreen$())
+    }));
+    var this$5 = ScalaJS.m.Lscalatags_JsDom$all$();
+    var evidence$2$1 = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(f$2$1) {
+      var f$3 = ScalaJS.as.F0(f$2$1);
+      return (function(f$4) {
+        return (function() {
+          return f$4.apply__O()
+        })
+      })(f$3)
+    }));
+    var ev$1 = new ScalaJS.c.Lscalatags_LowPriorityImplicits$$anon$1().init___Lscalatags_LowPriorityImplicits__F1(this$5, evidence$2$1);
+    var jsx$4 = jsx$7.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$6.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$5, new ScalaJS.c.Lscalatags_generic_AttrPair().init___Lscalatags_generic_Attr__O__Lscalatags_generic_AttrValue(this$6, v$1, ev$1)]))]));
+    var jsx$3 = this.columns__T__Lscalatags_JsDom$TypedTag("two");
+    var jsx$2 = this.v$1;
+    ScalaJS.m.Lscalatags_JsDom$all$();
+    var jsx$1 = new ScalaJS.c.Lscalatags_JsDom$StringFrag().init___T("Users");
+    var this$9 = ScalaJS.m.Lscalatags_JsDom$all$().onclick$1;
+    var v$2 = new ScalaJS.c.sjsr_AnonFunction0().init___sjs_js_Function0((function() {
+      ScalaJS.m.Ldemo_Demo$().router$1.$goto__O__V(ScalaJS.m.Ldemo_UsersScreen$())
+    }));
+    var this$8 = ScalaJS.m.Lscalatags_JsDom$all$();
+    var evidence$2$2 = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(f$2$2) {
+      var f$5 = ScalaJS.as.F0(f$2$2);
+      return (function(f$6) {
+        return (function() {
+          return f$6.apply__O()
+        })
+      })(f$5)
+    }));
+    var ev$2 = new ScalaJS.c.Lscalatags_LowPriorityImplicits$$anon$1().init___Lscalatags_LowPriorityImplicits__F1(this$8, evidence$2$2);
+    this.nav$1 = jsx$12.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$8, jsx$4, jsx$3.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$2.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, new ScalaJS.c.Lscalatags_generic_AttrPair().init___Lscalatags_generic_Attr__O__Lscalatags_generic_AttrValue(this$9, v$2, ev$2)]))]))]));
     this.bitmap$0$1 = true
   };
   return this.nav$1
@@ -1388,26 +1462,15 @@ ScalaJS.h.Ldemo_screens_Profile$ = (function() {
 ScalaJS.h.Ldemo_screens_Profile$.prototype = ScalaJS.c.Ldemo_screens_Profile$.prototype;
 ScalaJS.c.Ldemo_screens_Profile$.prototype.init___ = (function() {
   ScalaJS.n.Ldemo_screens_Profile$ = this;
-  var jsx$2 = ScalaJS.as.Lscalatags_JsDom$TypedTag(ScalaJS.m.Lscalatags_JsDom$all$().ul$1);
-  var this$5 = ScalaJS.m.Lscalatags_JsDom$all$();
-  var this$4 = ScalaJS.m.Ldemo_Users$().data$1;
-  var f = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x0$1$2) {
-    var x0$1 = ScalaJS.as.T2(x0$1$2);
-    if ((x0$1 !== null)) {
-      var user = ScalaJS.as.Ldemo_Users$User(x0$1.$$und2$f);
-      var jsx$1 = ScalaJS.as.Lscalatags_JsDom$TypedTag(ScalaJS.m.Lscalatags_JsDom$all$().li$1);
-      ScalaJS.m.Lscalatags_JsDom$all$();
-      var v = new ScalaJS.c.s_StringContext().init___sc_Seq(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array(["Name: ", " Age: ", ": "])).s__sc_Seq__T(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([user.name$1, user.age$1]));
-      return jsx$1.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([new ScalaJS.c.Lscalatags_JsDom$StringFrag().init___T(v)])).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([ScalaJS.m.Ldemo_screens_Common$().v$1.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Lscalatags_JsDom$all$(), new ScalaJS.c.Lscalatags_JsDom$StringFrag().init___T("View Profile"))]))]))
-    } else {
-      throw new ScalaJS.c.s_MatchError().init___O(x0$1)
-    }
-  }));
-  var this$3 = ScalaJS.m.sci_Iterable$();
-  var bf = this$3.ReusableCBFInstance$2;
-  var xs = ScalaJS.as.sc_TraversableOnce(ScalaJS.s.sc_TraversableLike$class__map__sc_TraversableLike__F1__scg_CanBuildFrom__O(this$4, f, bf)).toSeq__sc_Seq();
+  var jsx$1 = ScalaJS.as.Lscalatags_JsDom$TypedTag(ScalaJS.m.Lscalatags_JsDom$all$().ul$1);
+  var this$3 = ScalaJS.m.Lscalatags_JsDom$all$();
+  var this$2 = ScalaJS.m.Ldemo_Users$().data$1;
+  var f = new ScalaJS.c.Ldemo_screens_Profile$$anonfun$1().init___();
+  var this$1 = ScalaJS.m.sci_Iterable$();
+  var bf = this$1.ReusableCBFInstance$2;
+  var xs = ScalaJS.as.sc_TraversableOnce(ScalaJS.s.sc_TraversableLike$class__map__sc_TraversableLike__F1__scg_CanBuildFrom__O(this$2, f, bf)).toSeq__sc_Seq();
   var evidence$1 = ScalaJS.m.s_Predef$().singleton$und$less$colon$less$2;
-  this.listUsers$1 = jsx$2.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([new ScalaJS.c.Lscalatags_JsDom$Cap$SeqFrag().init___Lscalatags_JsDom$Cap__sc_Seq__F1(this$5, xs, evidence$1)]));
+  this.listUsers$1 = jsx$1.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([new ScalaJS.c.Lscalatags_JsDom$Cap$SeqFrag().init___Lscalatags_JsDom$Cap__sc_Seq__F1(this$3, xs, evidence$1)]));
   return this
 });
 ScalaJS.c.Ldemo_screens_Profile$.prototype.screen__Ldemo_Users$User__Lscalatags_JsDom$TypedTag = (function(user) {
@@ -1475,26 +1538,15 @@ ScalaJS.h.Ldemo_screens_Users$ = (function() {
 ScalaJS.h.Ldemo_screens_Users$.prototype = ScalaJS.c.Ldemo_screens_Users$.prototype;
 ScalaJS.c.Ldemo_screens_Users$.prototype.init___ = (function() {
   ScalaJS.n.Ldemo_screens_Users$ = this;
-  var jsx$2 = ScalaJS.as.Lscalatags_JsDom$TypedTag(ScalaJS.m.Lscalatags_JsDom$all$().ul$1);
-  var this$5 = ScalaJS.m.Lscalatags_JsDom$all$();
-  var this$4 = ScalaJS.m.Ldemo_Users$().data$1;
-  var f = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x0$1$2) {
-    var x0$1 = ScalaJS.as.T2(x0$1$2);
-    if ((x0$1 !== null)) {
-      var user = ScalaJS.as.Ldemo_Users$User(x0$1.$$und2$f);
-      var jsx$1 = ScalaJS.as.Lscalatags_JsDom$TypedTag(ScalaJS.m.Lscalatags_JsDom$all$().li$1);
-      ScalaJS.m.Lscalatags_JsDom$all$();
-      var v = new ScalaJS.c.s_StringContext().init___sc_Seq(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array(["Name: ", " Age: ", ": "])).s__sc_Seq__T(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([user.name$1, user.age$1]));
-      return jsx$1.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([new ScalaJS.c.Lscalatags_JsDom$StringFrag().init___T(v)])).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([ScalaJS.m.Ldemo_screens_Common$().v$1.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Lscalatags_JsDom$all$(), new ScalaJS.c.Lscalatags_JsDom$StringFrag().init___T("View Profile"))]))]))
-    } else {
-      throw new ScalaJS.c.s_MatchError().init___O(x0$1)
-    }
-  }));
-  var this$3 = ScalaJS.m.sci_Iterable$();
-  var bf = this$3.ReusableCBFInstance$2;
-  var xs = ScalaJS.as.sc_TraversableOnce(ScalaJS.s.sc_TraversableLike$class__map__sc_TraversableLike__F1__scg_CanBuildFrom__O(this$4, f, bf)).toSeq__sc_Seq();
+  var jsx$1 = ScalaJS.as.Lscalatags_JsDom$TypedTag(ScalaJS.m.Lscalatags_JsDom$all$().ul$1);
+  var this$3 = ScalaJS.m.Lscalatags_JsDom$all$();
+  var this$2 = ScalaJS.m.Ldemo_Users$().data$1;
+  var f = new ScalaJS.c.Ldemo_screens_Users$$anonfun$1().init___();
+  var this$1 = ScalaJS.m.sci_Iterable$();
+  var bf = this$1.ReusableCBFInstance$2;
+  var xs = ScalaJS.as.sc_TraversableOnce(ScalaJS.s.sc_TraversableLike$class__map__sc_TraversableLike__F1__scg_CanBuildFrom__O(this$2, f, bf)).toSeq__sc_Seq();
   var evidence$1 = ScalaJS.m.s_Predef$().singleton$und$less$colon$less$2;
-  this.listUsers$1 = jsx$2.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([new ScalaJS.c.Lscalatags_JsDom$Cap$SeqFrag().init___Lscalatags_JsDom$Cap__sc_Seq__F1(this$5, xs, evidence$1)]));
+  this.listUsers$1 = jsx$1.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([new ScalaJS.c.Lscalatags_JsDom$Cap$SeqFrag().init___Lscalatags_JsDom$Cap__sc_Seq__F1(this$3, xs, evidence$1)]));
   return this
 });
 ScalaJS.c.Ldemo_screens_Users$.prototype.screen__Lscalatags_JsDom$TypedTag = (function() {
@@ -1547,6 +1599,59 @@ ScalaJS.c.Llocallink_Router.prototype.parseUrl__T__s_concurrent_ExecutionContext
   var onError = this.locallink$Router$$default$f;
   var ec$1 = ScalaJS.m.sjs_concurrent_JSExecutionContext$Implicits$().queue$1;
   return this$1.linkGiven__T__Ldemo_Screen__s_concurrent_ExecutionContext__s_concurrent_Future(url, ScalaJS.as.Ldemo_Screen(onError), ec$1)
+});
+ScalaJS.c.Llocallink_Router.prototype.$goto__O__V = (function(link) {
+  var eta$0$2 = ScalaJS.g["window"]["history"];
+  var f = (function(eta$0$2$1) {
+    return (function(statedata$2, title$2, url$2) {
+      var title = ScalaJS.as.T(title$2);
+      var url = ScalaJS.as.T(url$2);
+      eta$0$2$1["pushState"](statedata$2, title, url)
+    })
+  })(eta$0$2);
+  var this$1 = this.table$1;
+  var x = ("WURT? -- mah url? -- " + this$1.urlFor__Ldemo_Screen__T(ScalaJS.as.Ldemo_Screen(link)));
+  var this$3 = ScalaJS.m.s_Console$();
+  var this$4 = this$3.outVar$2;
+  ScalaJS.as.Ljava_io_PrintStream(this$4.tl$1.get__O()).println__O__V(x);
+  var this$5 = this.table$1;
+  if (this$5.isVolatileLink__Ldemo_Screen__Z(ScalaJS.as.Ldemo_Screen(link))) {
+    var this$6 = this.table$1;
+    var arg3 = this$6.urlFor__Ldemo_Screen__T(ScalaJS.as.Ldemo_Screen(link));
+    f(null, null, arg3)
+  } else {
+    var this$7 = ScalaJS.m.Lupickle_package$();
+    var evidence$1 = this.w$1;
+    var arg1 = ScalaJS.s.Lupickle_Types$class__write__Lupickle_Types__O__Lupickle_Writer__T(this$7, link, evidence$1);
+    var this$9 = this.table$1;
+    var arg3$1 = this$9.urlFor__Ldemo_Screen__T(ScalaJS.as.Ldemo_Screen(link));
+    f(arg1, null, arg3$1)
+  };
+  var this$10 = this.current$1;
+  var evidence$4 = ScalaJS.m.Lrx_core_Propagator$Immediate$();
+  var jsx$2 = this$10.state$1;
+  try {
+    var jsx$1 = new ScalaJS.c.s_util_Success().init___O(link)
+  } catch (e) {
+    var e$2 = ScalaJS.m.sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
+    if ((e$2 !== null)) {
+      matchEnd8: {
+        var jsx$1;
+        var o11 = ScalaJS.m.s_util_control_NonFatal$().unapply__jl_Throwable__s_Option(e$2);
+        if ((!o11.isEmpty__Z())) {
+          var e$3 = ScalaJS.as.jl_Throwable(o11.get__O());
+          var jsx$1 = new ScalaJS.c.s_util_Failure().init___jl_Throwable(e$3);
+          break matchEnd8
+        };
+        throw ScalaJS.m.sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(e$2)
+      }
+    } else {
+      var jsx$1;
+      throw e
+    }
+  };
+  jsx$2.value$1 = jsx$1;
+  ScalaJS.s.Lrx_core_Rx$class__propagate__Lrx_core_Rx__Lrx_core_Propagator__O(this$10, evidence$4)
 });
 ScalaJS.c.Llocallink_Router.prototype.init___O__Llocallink_RouteTable__Lupickle_Reader__Lupickle_Writer = (function(default$2, table, R, w) {
   this.locallink$Router$$default$f = default$2;
@@ -9295,6 +9400,9 @@ ScalaJS.h.Lscalatags_JsDom$GenericAttr = (function() {
   /*<skip>*/
 });
 ScalaJS.h.Lscalatags_JsDom$GenericAttr.prototype = ScalaJS.c.Lscalatags_JsDom$GenericAttr.prototype;
+ScalaJS.c.Lscalatags_JsDom$GenericAttr.prototype.apply__O__Lscalatags_generic_Attr__O__V = (function(t, a, v) {
+  this.apply__Lorg_scalajs_dom_raw_Element__Lscalatags_generic_Attr__O__V(t, a, v)
+});
 ScalaJS.c.Lscalatags_JsDom$GenericAttr.prototype.apply__Lorg_scalajs_dom_raw_Element__Lscalatags_generic_Attr__O__V = (function(t, a, v) {
   t["setAttribute"](a.name$1, ScalaJS.objectToString(v))
 });
@@ -9433,6 +9541,48 @@ ScalaJS.d.Lscalatags_JsDom$GenericStyle = new ScalaJS.ClassTypeData({
   Lscalatags_generic_StyleValue: 1
 });
 ScalaJS.c.Lscalatags_JsDom$GenericStyle.prototype.$classData = ScalaJS.d.Lscalatags_JsDom$GenericStyle;
+/** @constructor */
+ScalaJS.c.Lscalatags_LowPriorityImplicits$$anon$1 = (function() {
+  ScalaJS.c.O.call(this);
+  this.evidence$2$1$1 = null
+});
+ScalaJS.c.Lscalatags_LowPriorityImplicits$$anon$1.prototype = new ScalaJS.h.O();
+ScalaJS.c.Lscalatags_LowPriorityImplicits$$anon$1.prototype.constructor = ScalaJS.c.Lscalatags_LowPriorityImplicits$$anon$1;
+/** @constructor */
+ScalaJS.h.Lscalatags_LowPriorityImplicits$$anon$1 = (function() {
+  /*<skip>*/
+});
+ScalaJS.h.Lscalatags_LowPriorityImplicits$$anon$1.prototype = ScalaJS.c.Lscalatags_LowPriorityImplicits$$anon$1.prototype;
+ScalaJS.c.Lscalatags_LowPriorityImplicits$$anon$1.prototype.init___Lscalatags_LowPriorityImplicits__F1 = (function($$outer, evidence$2$1) {
+  this.evidence$2$1$1 = evidence$2$1;
+  return this
+});
+ScalaJS.c.Lscalatags_LowPriorityImplicits$$anon$1.prototype.apply__O__Lscalatags_generic_Attr__O__V = (function(t, a, v) {
+  this.apply__Lorg_scalajs_dom_raw_Element__Lscalatags_generic_Attr__O__V(t, a, v)
+});
+ScalaJS.c.Lscalatags_LowPriorityImplicits$$anon$1.prototype.apply__Lorg_scalajs_dom_raw_Element__Lscalatags_generic_Attr__O__V = (function(t, a, v) {
+  t[a.name$1] = this.evidence$2$1$1.apply__O__O(v)
+});
+ScalaJS.is.Lscalatags_LowPriorityImplicits$$anon$1 = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalatags_LowPriorityImplicits$$anon$1)))
+});
+ScalaJS.as.Lscalatags_LowPriorityImplicits$$anon$1 = (function(obj) {
+  return ((ScalaJS.is.Lscalatags_LowPriorityImplicits$$anon$1(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "scalatags.LowPriorityImplicits$$anon$1"))
+});
+ScalaJS.isArrayOf.Lscalatags_LowPriorityImplicits$$anon$1 = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalatags_LowPriorityImplicits$$anon$1)))
+});
+ScalaJS.asArrayOf.Lscalatags_LowPriorityImplicits$$anon$1 = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Lscalatags_LowPriorityImplicits$$anon$1(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Lscalatags.LowPriorityImplicits$$anon$1;", depth))
+});
+ScalaJS.d.Lscalatags_LowPriorityImplicits$$anon$1 = new ScalaJS.ClassTypeData({
+  Lscalatags_LowPriorityImplicits$$anon$1: 0
+}, false, "scalatags.LowPriorityImplicits$$anon$1", ScalaJS.d.O, {
+  Lscalatags_LowPriorityImplicits$$anon$1: 1,
+  O: 1,
+  Lscalatags_generic_AttrValue: 1
+});
+ScalaJS.c.Lscalatags_LowPriorityImplicits$$anon$1.prototype.$classData = ScalaJS.d.Lscalatags_LowPriorityImplicits$$anon$1;
 /** @constructor */
 ScalaJS.c.Lscalatags_generic_Namespace$$anon$1 = (function() {
   ScalaJS.c.O.call(this)
@@ -18010,6 +18160,142 @@ ScalaJS.m.Ldemo_Users$User$ = (function() {
   return ScalaJS.n.Ldemo_Users$User$
 });
 /** @constructor */
+ScalaJS.c.Ldemo_screens_Profile$$anonfun$1 = (function() {
+  ScalaJS.c.sr_AbstractFunction1.call(this)
+});
+ScalaJS.c.Ldemo_screens_Profile$$anonfun$1.prototype = new ScalaJS.h.sr_AbstractFunction1();
+ScalaJS.c.Ldemo_screens_Profile$$anonfun$1.prototype.constructor = ScalaJS.c.Ldemo_screens_Profile$$anonfun$1;
+/** @constructor */
+ScalaJS.h.Ldemo_screens_Profile$$anonfun$1 = (function() {
+  /*<skip>*/
+});
+ScalaJS.h.Ldemo_screens_Profile$$anonfun$1.prototype = ScalaJS.c.Ldemo_screens_Profile$$anonfun$1.prototype;
+ScalaJS.c.Ldemo_screens_Profile$$anonfun$1.prototype.apply__O__O = (function(v1) {
+  return this.apply__T2__Lscalatags_JsDom$TypedTag(ScalaJS.as.T2(v1))
+});
+ScalaJS.c.Ldemo_screens_Profile$$anonfun$1.prototype.apply__T2__Lscalatags_JsDom$TypedTag = (function(x0$1) {
+  if ((x0$1 !== null)) {
+    var user = ScalaJS.as.Ldemo_Users$User(x0$1.$$und2$f);
+    var jsx$4 = ScalaJS.as.Lscalatags_JsDom$TypedTag(ScalaJS.m.Lscalatags_JsDom$all$().li$1);
+    ScalaJS.m.Lscalatags_JsDom$all$();
+    var v = new ScalaJS.c.s_StringContext().init___sc_Seq(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array(["Name: ", " Age: ", ": "])).s__sc_Seq__T(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([user.name$1, user.age$1]));
+    var jsx$3 = jsx$4.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([new ScalaJS.c.Lscalatags_JsDom$StringFrag().init___T(v)]));
+    var jsx$2 = ScalaJS.m.Ldemo_screens_Common$().v$1;
+    ScalaJS.m.Lscalatags_JsDom$all$();
+    var jsx$1 = new ScalaJS.c.Lscalatags_JsDom$StringFrag().init___T("View Profile");
+    var this$4 = ScalaJS.m.Lscalatags_JsDom$all$().onclick$1;
+    var v$1 = new ScalaJS.c.sjsr_AnonFunction0().init___sjs_js_Function0((function(user$1) {
+      return (function() {
+        ScalaJS.m.Ldemo_Demo$().router$1.$goto__O__V(new ScalaJS.c.Ldemo_ProfileScreen().init___Ldemo_Users$User(user$1))
+      })
+    })(user));
+    var this$3 = ScalaJS.m.Lscalatags_JsDom$all$();
+    var evidence$2 = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(f$2) {
+      var f = ScalaJS.as.F0(f$2);
+      return (function(f$1) {
+        return (function() {
+          return f$1.apply__O()
+        })
+      })(f)
+    }));
+    var ev = new ScalaJS.c.Lscalatags_LowPriorityImplicits$$anon$1().init___Lscalatags_LowPriorityImplicits__F1(this$3, evidence$2);
+    return jsx$3.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$2.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, new ScalaJS.c.Lscalatags_generic_AttrPair().init___Lscalatags_generic_Attr__O__Lscalatags_generic_AttrValue(this$4, v$1, ev)]))]))
+  } else {
+    throw new ScalaJS.c.s_MatchError().init___O(x0$1)
+  }
+});
+ScalaJS.is.Ldemo_screens_Profile$$anonfun$1 = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ldemo_screens_Profile$$anonfun$1)))
+});
+ScalaJS.as.Ldemo_screens_Profile$$anonfun$1 = (function(obj) {
+  return ((ScalaJS.is.Ldemo_screens_Profile$$anonfun$1(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "demo.screens.Profile$$anonfun$1"))
+});
+ScalaJS.isArrayOf.Ldemo_screens_Profile$$anonfun$1 = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ldemo_screens_Profile$$anonfun$1)))
+});
+ScalaJS.asArrayOf.Ldemo_screens_Profile$$anonfun$1 = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Ldemo_screens_Profile$$anonfun$1(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Ldemo.screens.Profile$$anonfun$1;", depth))
+});
+ScalaJS.d.Ldemo_screens_Profile$$anonfun$1 = new ScalaJS.ClassTypeData({
+  Ldemo_screens_Profile$$anonfun$1: 0
+}, false, "demo.screens.Profile$$anonfun$1", ScalaJS.d.sr_AbstractFunction1, {
+  Ldemo_screens_Profile$$anonfun$1: 1,
+  sr_AbstractFunction1: 1,
+  O: 1,
+  F1: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+ScalaJS.c.Ldemo_screens_Profile$$anonfun$1.prototype.$classData = ScalaJS.d.Ldemo_screens_Profile$$anonfun$1;
+/** @constructor */
+ScalaJS.c.Ldemo_screens_Users$$anonfun$1 = (function() {
+  ScalaJS.c.sr_AbstractFunction1.call(this)
+});
+ScalaJS.c.Ldemo_screens_Users$$anonfun$1.prototype = new ScalaJS.h.sr_AbstractFunction1();
+ScalaJS.c.Ldemo_screens_Users$$anonfun$1.prototype.constructor = ScalaJS.c.Ldemo_screens_Users$$anonfun$1;
+/** @constructor */
+ScalaJS.h.Ldemo_screens_Users$$anonfun$1 = (function() {
+  /*<skip>*/
+});
+ScalaJS.h.Ldemo_screens_Users$$anonfun$1.prototype = ScalaJS.c.Ldemo_screens_Users$$anonfun$1.prototype;
+ScalaJS.c.Ldemo_screens_Users$$anonfun$1.prototype.apply__O__O = (function(v1) {
+  return this.apply__T2__Lscalatags_JsDom$TypedTag(ScalaJS.as.T2(v1))
+});
+ScalaJS.c.Ldemo_screens_Users$$anonfun$1.prototype.apply__T2__Lscalatags_JsDom$TypedTag = (function(x0$1) {
+  if ((x0$1 !== null)) {
+    var user = ScalaJS.as.Ldemo_Users$User(x0$1.$$und2$f);
+    var jsx$4 = ScalaJS.as.Lscalatags_JsDom$TypedTag(ScalaJS.m.Lscalatags_JsDom$all$().li$1);
+    ScalaJS.m.Lscalatags_JsDom$all$();
+    var v = new ScalaJS.c.s_StringContext().init___sc_Seq(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array(["Name: ", " Age: ", ": "])).s__sc_Seq__T(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([user.name$1, user.age$1]));
+    var jsx$3 = jsx$4.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([new ScalaJS.c.Lscalatags_JsDom$StringFrag().init___T(v)]));
+    var jsx$2 = ScalaJS.m.Ldemo_screens_Common$().v$1;
+    ScalaJS.m.Lscalatags_JsDom$all$();
+    var jsx$1 = new ScalaJS.c.Lscalatags_JsDom$StringFrag().init___T("View Profile");
+    var this$4 = ScalaJS.m.Lscalatags_JsDom$all$().onclick$1;
+    var v$1 = new ScalaJS.c.sjsr_AnonFunction0().init___sjs_js_Function0((function(user$1) {
+      return (function() {
+        ScalaJS.m.Ldemo_Demo$().router$1.$goto__O__V(new ScalaJS.c.Ldemo_ProfileScreen().init___Ldemo_Users$User(user$1))
+      })
+    })(user));
+    var this$3 = ScalaJS.m.Lscalatags_JsDom$all$();
+    var evidence$2 = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(f$2) {
+      var f = ScalaJS.as.F0(f$2);
+      return (function(f$1) {
+        return (function() {
+          return f$1.apply__O()
+        })
+      })(f)
+    }));
+    var ev = new ScalaJS.c.Lscalatags_LowPriorityImplicits$$anon$1().init___Lscalatags_LowPriorityImplicits__F1(this$3, evidence$2);
+    return jsx$3.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$2.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, new ScalaJS.c.Lscalatags_generic_AttrPair().init___Lscalatags_generic_Attr__O__Lscalatags_generic_AttrValue(this$4, v$1, ev)]))]))
+  } else {
+    throw new ScalaJS.c.s_MatchError().init___O(x0$1)
+  }
+});
+ScalaJS.is.Ldemo_screens_Users$$anonfun$1 = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ldemo_screens_Users$$anonfun$1)))
+});
+ScalaJS.as.Ldemo_screens_Users$$anonfun$1 = (function(obj) {
+  return ((ScalaJS.is.Ldemo_screens_Users$$anonfun$1(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "demo.screens.Users$$anonfun$1"))
+});
+ScalaJS.isArrayOf.Ldemo_screens_Users$$anonfun$1 = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ldemo_screens_Users$$anonfun$1)))
+});
+ScalaJS.asArrayOf.Ldemo_screens_Users$$anonfun$1 = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Ldemo_screens_Users$$anonfun$1(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Ldemo.screens.Users$$anonfun$1;", depth))
+});
+ScalaJS.d.Ldemo_screens_Users$$anonfun$1 = new ScalaJS.ClassTypeData({
+  Ldemo_screens_Users$$anonfun$1: 0
+}, false, "demo.screens.Users$$anonfun$1", ScalaJS.d.sr_AbstractFunction1, {
+  Ldemo_screens_Users$$anonfun$1: 1,
+  sr_AbstractFunction1: 1,
+  O: 1,
+  F1: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+ScalaJS.c.Ldemo_screens_Users$$anonfun$1.prototype.$classData = ScalaJS.d.Ldemo_screens_Users$$anonfun$1;
+/** @constructor */
 ScalaJS.c.Llocallink_Router$$anonfun$3 = (function() {
   ScalaJS.c.sr_AbstractFunction1.call(this);
   this.$$outer$2 = null
@@ -22024,10 +22310,7 @@ ScalaJS.c.Lscalatags_generic_AttrPair.prototype.toString__T = (function() {
   return ScalaJS.m.sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
 });
 ScalaJS.c.Lscalatags_generic_AttrPair.prototype.applyTo__O__V = (function(t) {
-  var this$1 = this.ev$1;
-  var a = this.a$1;
-  var v = this.v$1;
-  this$1.apply__Lorg_scalajs_dom_raw_Element__Lscalatags_generic_Attr__O__V(t, a, v)
+  this.ev$1.apply__O__Lscalatags_generic_Attr__O__V(t, this.a$1, this.v$1)
 });
 ScalaJS.c.Lscalatags_generic_AttrPair.prototype.hashCode__I = (function() {
   var this$2 = ScalaJS.m.s_util_hashing_MurmurHash3$();
