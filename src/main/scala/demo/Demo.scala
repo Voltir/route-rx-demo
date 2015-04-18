@@ -21,7 +21,6 @@ case class ProfileScreen(user: User) extends Screen
 object Demo extends js.JSApp {
 
   val router = Router.generate[Screen](IndexScreen)
-  //val temp: Var[Screen] = Var(ProfileScreen(Users.data.head._2))
 
   private lazy val current: Rx[HtmlTag] = Rx {
     router.current() match {

@@ -8,7 +8,7 @@ object Index {
   val info =
     """
       |This is a demo application that demonstrates the use of the local-link library.
-      |Navigating links should updated url properly, including the use of the forward and back buttons, even though this is still a "single page application".
+      |Navigating links will update the browser url and enable the use of forward and back buttons even though this is still a "single page application".
     """.stripMargin
 
   def screen(): HtmlTag = {

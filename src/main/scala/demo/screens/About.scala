@@ -8,9 +8,13 @@ object About {
 
   val info =
     """
-      |The Local Link library uses scala macros to take a sealed trait that describes all the possible "screens" in the
-      |application, and generates a mapping from them to urls, as well as calls to the browsers History API, making
-      |the single page app behave more like a "real" web page.
+      |The Local Link library uses scala macros that turns a sealed trait into a set of valid internal links for the
+      |application. It generates a mapping between the children of the sealed traits to url strings, as well as calls
+      |triggers calls to the browsers History API, allowing the single page app behave more like a set of real web pages.
+      |
+      |This library only attempts to solve the issue from the browser side - appropriate steps must be taken by the
+      |web server to handle routing from external links and generate the appropriate state for the scala.js client in order
+      |for local-links to behave exactly as normal http urls.
     """.stripMargin
 
   def screen(): HtmlTag = {
