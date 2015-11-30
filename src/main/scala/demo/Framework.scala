@@ -3,7 +3,6 @@ package demo
 import org.scalajs.dom
 import org.scalajs.dom.Element
 import rx._
-import rx.core.Obs
 
 import scala.util.{Failure, Success}
 import scalatags.JsDom.all._
@@ -26,13 +25,13 @@ object Framework {
    * the Obs onto the element itself so we have a reference to kill it when
    * the element leaves the DOM (e.g. it gets deleted).
    */
-  implicit def rxMod[T <: dom.html.Element](r: Rx[HtmlTag]): Modifier = {
+  implicit def rxMod[T <: HtmlTag](r: Rx[T]): Modifier = {
     def rSafe = r.toTry match {
       case Success(v) => v.render
       case Failure(e) => span(e.toString, backgroundColor := "red").render
     }
     var last = rSafe
-    Obs(r, skipInitial = true){
+    Obs(r,skipInitial=true) {
       val newLast = rSafe
       last.parentElement.replaceChild(newLast, last)
       last = newLast
@@ -41,12 +40,12 @@ object Framework {
   }
   implicit def RxAttrValue[T: AttrValue] = new AttrValue[Rx[T]]{
     def apply(t: Element, a: Attr, r: Rx[T]): Unit = {
-      Obs(r){ implicitly[AttrValue[T]].apply(t, a, r())}
+      Obs(r) { implicitly[AttrValue[T]].apply(t, a, r.now)}
     }
   }
   implicit def RxStyleValue[T: StyleValue] = new StyleValue[Rx[T]]{
     def apply(t: Element, s: Style, r: Rx[T]): Unit = {
-      Obs(r){ implicitly[StyleValue[T]].apply(t, s, r())}
+      Obs(r) { implicitly[StyleValue[T]].apply(t, s, r.now)}
     }
   }
 
