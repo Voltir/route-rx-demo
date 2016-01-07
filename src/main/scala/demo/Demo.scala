@@ -16,7 +16,7 @@ sealed trait Screen
 case object IndexScreen extends Screen
 case object AboutScreen extends Screen
 case object UsersScreen extends Screen
-//case class TestScreen(inp: String) extends Screen todo: Scala.rx 3.1
+case class TestScreen(inp: String) extends Screen
 case class ProfileScreen(user: User) extends Screen
 
 object Demo extends js.JSApp {
@@ -39,9 +39,10 @@ object Demo extends js.JSApp {
       case IndexScreen => screens.Index.screen()
       case AboutScreen => screens.About.screen()
       case UsersScreen => screens.Users.screen()
-      //todo: Scala.rx 3.1 related
-      //case TestScreen(inp) =>  screens.Test.screen(inp)(ctx)()
-      //case TestScreen(inp) => { val meh = screens.Test.screen(inp) ; meh() }
+      case TestScreen(inp) => {
+        val dynamicScreen = screens.Test.screen(inp)
+        dynamicScreen()
+      }
       case ProfileScreen(user) => screens.Profile.screen(user)
     }
   }
