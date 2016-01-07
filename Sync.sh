@@ -2,7 +2,7 @@
 
 echo "Starting..."
 mkdir /tmp/formidable_demo/
-cp target/scala-2.11/formidable-demo-fastopt.js /tmp/formidable_demo/
+cp target/scala-2.11/formidable-demo-fastopt.js /tmp/local_link_demo/
 git checkout gh-pages
 if [ $? -eq 0 ]; then
   mv /tmp/local_link_demo/* .
