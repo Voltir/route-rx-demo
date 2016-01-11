@@ -15,7 +15,7 @@ object Framework {
    * Wraps reactive strings in spans, so they can be referenced/replaced
    * when the Rx changes.
    */
-  implicit def RxStr[T](r: Rx[T])(implicit f: T => Modifier): Modifier = {
+  implicit def RxStr[T](r: Rx[T])(implicit f: T => Modifier, ctx: RxCtx): Modifier = {
     rxMod(Rx(span(r())))
   }
 
