@@ -1,16 +1,13 @@
 package demo
 
-import upickle._
 import locallink._
-import concurrent.{Future,ExecutionContext}
 import scalajs.concurrent.JSExecutionContext.Implicits.queue
 import scala.scalajs.js
-import js.annotation.JSExport
 import rx._
 import scalatags.JsDom.all._
 import org.scalajs.dom
-import Framework._
 import demo.Users._
+import framework.Framework._
 
 sealed trait Screen
 case object IndexScreen extends Screen
@@ -19,18 +16,8 @@ case object UsersScreen extends Screen
 case class TestScreen(inp: String) extends Screen
 case class ProfileScreen(user: User) extends Screen
 
-object Demo extends js.JSApp {
-
-  implicit object StringUrlPart extends UrlPart[String] {
-    override val size = 1
-    override def toParts(inp: String) = List(inp.toLowerCase)
-    def fromParts(parts: List[String])(implicit ec : ExecutionContext): Future[String] = parts match {
-      case name :: Nil => {
-        Future.successful(name)
-      }
-      case _ => Future.failed(new Throwable("Invalid User URL!"))
-    }
-  }
+//Uses the default UrlParts provided in locallink.implicits
+object Demo extends js.JSApp with locallink.implicits.Defaults {
 
   val router = Router.generateWithPrefix[Screen](IndexScreen, "local-link-demo")
 

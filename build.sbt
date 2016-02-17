@@ -23,10 +23,11 @@ persistLauncher in Test := false
 testFrameworks += new TestFramework("utest.runner.Framework")
 
 libraryDependencies ++= Seq(
-    "com.stabletechs" %%% "local-link" % "1.1.1-SNAPSHOT",
-    "org.scala-js" %%% "scalajs-dom" % "0.8.2",
-    "com.lihaoyi" %%% "scalatags" % "0.5.2",
-    "com.lihaoyi" %%% "scalarx" % "0.3.1-SNAPSHOT",
-    "com.lihaoyi" %%% "upickle" % "0.3.7",
-    "com.lihaoyi" %%% "utest" % "0.3.1" 
+  "com.stabletechs" %%% "local-link" % "1.1.1-SNAPSHOT",
+  "com.stabletechs" %%% "frameworkrx" % "0.1.0-SNAPSHOT",
+  "org.scala-js" %%% "scalajs-dom" % "0.9.0",
+  "com.lihaoyi" %%% "scalatags" % "0.5.4",
+  "com.lihaoyi" %%% "scalarx" % "0.3.1-SNAPSHOT",
+  "com.lihaoyi" %%% "upickle" % "0.3.7",
+  "com.lihaoyi" %%% "utest" % "0.3.1"
 )

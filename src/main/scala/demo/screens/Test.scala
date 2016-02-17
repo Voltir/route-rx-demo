@@ -1,11 +1,9 @@
 package demo.screens
 
-import org.scalajs.dom
 import rx._
-import demo.Users.User
 import demo.screens.Common._
-import demo.Framework._
-
+import framework.Framework._
+import scala.scalajs.js
 import scalatags.JsDom.all._
 object Test {
 
@@ -13,7 +11,7 @@ object Test {
 
   val tick: Var[Int] = Var(0)
 
-  dom.setInterval(() => tick() = tick.now + 1,1000)
+  js.timers.setInterval(1000)(tick() = tick.now + 1)
 
   def nested()(implicit ctx: Ctx.Owner): Rx[HtmlTag] = Rx {
     println("RX FIRED!")
