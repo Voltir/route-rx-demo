@@ -1326,12 +1326,12 @@ function $asArrayOf_sc_GenTraversableOnce(obj, depth) {
 /** @constructor */
 function $c_Ldemo_Demo$$anon$3() {
   $c_O.call(this);
-  this.derive$macro$119$1 = null;
+  this.derive$macro$105$1 = null;
+  this.derive$macro$111$1 = null;
   this.derive$macro$99$1 = null;
-  this.derive$macro$122$1 = null;
-  this.derive$macro$116$1 = null;
-  this.derive$macro$102$1 = null;
-  this.derive$macro$113$1 = null;
+  this.derive$macro$123$1 = null;
+  this.derive$macro$114$1 = null;
+  this.derive$macro$108$1 = null;
   this.derive$macro$96$1 = null;
   this.bitmap$0$1 = 0
 }
@@ -1343,42 +1343,34 @@ function $h_Ldemo_Demo$$anon$3() {
 }
 $h_Ldemo_Demo$$anon$3.prototype = $c_Ldemo_Demo$$anon$3.prototype;
 $c_Ldemo_Demo$$anon$3.prototype.derive$macro$99$lzycompute__p1__Lupickle_Types$Writer = (function() {
-  if (((2 & this.bitmap$0$1) === 0)) {
+  if (((4 & this.bitmap$0$1) === 0)) {
     this.derive$macro$99$1 = new $c_Lupickle_Types$Knot$Writer().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1().init___Ldemo_Demo$$anon$3(this));
-    this.bitmap$0$1 = (2 | this.bitmap$0$1)
+    this.bitmap$0$1 = (4 | this.bitmap$0$1)
   };
   return this.derive$macro$99$1
 });
 $c_Ldemo_Demo$$anon$3.prototype.init___ = (function() {
   return this
 });
-$c_Ldemo_Demo$$anon$3.prototype.derive$macro$122$lzycompute__p1__Lupickle_Types$Writer = (function() {
-  if (((4 & this.bitmap$0$1) === 0)) {
-    this.derive$macro$122$1 = new $c_Lupickle_Types$Knot$Writer().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1().init___Ldemo_Demo$$anon$3(this));
-    this.bitmap$0$1 = (4 | this.bitmap$0$1)
-  };
-  return this.derive$macro$122$1
-});
-$c_Ldemo_Demo$$anon$3.prototype.derive$macro$116$lzycompute__p1__Lupickle_Types$Writer = (function() {
-  if (((8 & this.bitmap$0$1) === 0)) {
-    this.derive$macro$116$1 = new $c_Lupickle_Types$Knot$Writer().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
-      var this$3 = $m_Lupickle_default$();
-      var this$1 = $m_Lupickle_default$();
-      var f = $m_Ldemo_IndexScreen$();
-      var rw = $s_Lupickle_Implicits$class__SingletonW__Lupickle_Implicits__O__Lupickle_Types$Writer(this$1, f);
-      var evidence$6 = new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_IndexScreen$.getClassOf());
-      return $s_Lupickle_AttributeTagged$class__annotate__Lupickle_AttributeTagged__Lupickle_Types$Writer__T__s_reflect_ClassTag__Lupickle_Types$Writer(this$3, rw, "demo.IndexScreen", evidence$6)
-    })));
-    this.bitmap$0$1 = (8 | this.bitmap$0$1)
-  };
-  return this.derive$macro$116$1
-});
 $c_Ldemo_Demo$$anon$3.prototype.derive$macro$96__Lupickle_Types$Writer = (function() {
   return (((64 & this.bitmap$0$1) === 0) ? this.derive$macro$96$lzycompute__p1__Lupickle_Types$Writer() : this.derive$macro$96$1)
 });
-$c_Ldemo_Demo$$anon$3.prototype.derive$macro$119$lzycompute__p1__Lupickle_Types$Writer = (function() {
+$c_Ldemo_Demo$$anon$3.prototype.derive$macro$108__Lupickle_Types$Writer = (function() {
+  return (((32 & this.bitmap$0$1) === 0) ? this.derive$macro$108$lzycompute__p1__Lupickle_Types$Writer() : this.derive$macro$108$1)
+});
+$c_Ldemo_Demo$$anon$3.prototype.derive$macro$99__Lupickle_Types$Writer = (function() {
+  return (((4 & this.bitmap$0$1) === 0) ? this.derive$macro$99$lzycompute__p1__Lupickle_Types$Writer() : this.derive$macro$99$1)
+});
+$c_Ldemo_Demo$$anon$3.prototype.derive$macro$111$lzycompute__p1__Lupickle_Types$Writer = (function() {
+  if (((2 & this.bitmap$0$1) === 0)) {
+    this.derive$macro$111$1 = new $c_Lupickle_Types$Knot$Writer().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1().init___Ldemo_Demo$$anon$3(this));
+    this.bitmap$0$1 = (2 | this.bitmap$0$1)
+  };
+  return this.derive$macro$111$1
+});
+$c_Ldemo_Demo$$anon$3.prototype.derive$macro$105$lzycompute__p1__Lupickle_Types$Writer = (function() {
   if (((1 & this.bitmap$0$1) === 0)) {
-    this.derive$macro$119$1 = new $c_Lupickle_Types$Knot$Writer().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
+    this.derive$macro$105$1 = new $c_Lupickle_Types$Knot$Writer().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
       var this$3 = $m_Lupickle_default$();
       var this$1 = $m_Lupickle_default$();
       var f = $m_Ldemo_AboutScreen$();
@@ -1388,36 +1380,32 @@ $c_Ldemo_Demo$$anon$3.prototype.derive$macro$119$lzycompute__p1__Lupickle_Types$
     })));
     this.bitmap$0$1 = (1 | this.bitmap$0$1)
   };
-  return this.derive$macro$119$1
+  return this.derive$macro$105$1
 });
-$c_Ldemo_Demo$$anon$3.prototype.derive$macro$122__Lupickle_Types$Writer = (function() {
-  return (((4 & this.bitmap$0$1) === 0) ? this.derive$macro$122$lzycompute__p1__Lupickle_Types$Writer() : this.derive$macro$122$1)
+$c_Ldemo_Demo$$anon$3.prototype.derive$macro$123$lzycompute__p1__Lupickle_Types$Writer = (function() {
+  if (((8 & this.bitmap$0$1) === 0)) {
+    this.derive$macro$123$1 = new $c_Lupickle_Types$Knot$Writer().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
+      var this$3 = $m_Lupickle_default$();
+      var this$1 = $m_Lupickle_default$();
+      var f = $m_Ldemo_IndexScreen$();
+      var rw = $s_Lupickle_Implicits$class__SingletonW__Lupickle_Implicits__O__Lupickle_Types$Writer(this$1, f);
+      var evidence$6 = new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_IndexScreen$.getClassOf());
+      return $s_Lupickle_AttributeTagged$class__annotate__Lupickle_AttributeTagged__Lupickle_Types$Writer__T__s_reflect_ClassTag__Lupickle_Types$Writer(this$3, rw, "demo.IndexScreen", evidence$6)
+    })));
+    this.bitmap$0$1 = (8 | this.bitmap$0$1)
+  };
+  return this.derive$macro$123$1
 });
-$c_Ldemo_Demo$$anon$3.prototype.derive$macro$99__Lupickle_Types$Writer = (function() {
-  return (((2 & this.bitmap$0$1) === 0) ? this.derive$macro$99$lzycompute__p1__Lupickle_Types$Writer() : this.derive$macro$99$1)
-});
-$c_Ldemo_Demo$$anon$3.prototype.derive$macro$113__Lupickle_Types$Writer = (function() {
-  return (((32 & this.bitmap$0$1) === 0) ? this.derive$macro$113$lzycompute__p1__Lupickle_Types$Writer() : this.derive$macro$113$1)
-});
-$c_Ldemo_Demo$$anon$3.prototype.derive$macro$102$lzycompute__p1__Lupickle_Types$Writer = (function() {
+$c_Ldemo_Demo$$anon$3.prototype.derive$macro$114$lzycompute__p1__Lupickle_Types$Writer = (function() {
   if (((16 & this.bitmap$0$1) === 0)) {
-    this.derive$macro$102$1 = new $c_Lupickle_Types$Knot$Writer().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1().init___Ldemo_Demo$$anon$3(this));
+    this.derive$macro$114$1 = new $c_Lupickle_Types$Knot$Writer().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1().init___Ldemo_Demo$$anon$3(this));
     this.bitmap$0$1 = (16 | this.bitmap$0$1)
   };
-  return this.derive$macro$102$1
+  return this.derive$macro$114$1
 });
-$c_Ldemo_Demo$$anon$3.prototype.derive$macro$116__Lupickle_Types$Writer = (function() {
-  return (((8 & this.bitmap$0$1) === 0) ? this.derive$macro$116$lzycompute__p1__Lupickle_Types$Writer() : this.derive$macro$116$1)
-});
-$c_Ldemo_Demo$$anon$3.prototype.derive$macro$102__Lupickle_Types$Writer = (function() {
-  return (((16 & this.bitmap$0$1) === 0) ? this.derive$macro$102$lzycompute__p1__Lupickle_Types$Writer() : this.derive$macro$102$1)
-});
-$c_Ldemo_Demo$$anon$3.prototype.derive$macro$119__Lupickle_Types$Writer = (function() {
-  return (((1 & this.bitmap$0$1) === 0) ? this.derive$macro$119$lzycompute__p1__Lupickle_Types$Writer() : this.derive$macro$119$1)
-});
-$c_Ldemo_Demo$$anon$3.prototype.derive$macro$113$lzycompute__p1__Lupickle_Types$Writer = (function() {
+$c_Ldemo_Demo$$anon$3.prototype.derive$macro$108$lzycompute__p1__Lupickle_Types$Writer = (function() {
   if (((32 & this.bitmap$0$1) === 0)) {
-    this.derive$macro$113$1 = new $c_Lupickle_Types$Knot$Writer().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
+    this.derive$macro$108$1 = new $c_Lupickle_Types$Knot$Writer().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
       var this$3 = $m_Lupickle_default$();
       var this$1 = $m_Lupickle_default$();
       var f = $m_Ldemo_UsersScreen$();
@@ -1427,7 +1415,19 @@ $c_Ldemo_Demo$$anon$3.prototype.derive$macro$113$lzycompute__p1__Lupickle_Types$
     })));
     this.bitmap$0$1 = (32 | this.bitmap$0$1)
   };
-  return this.derive$macro$113$1
+  return this.derive$macro$108$1
+});
+$c_Ldemo_Demo$$anon$3.prototype.derive$macro$111__Lupickle_Types$Writer = (function() {
+  return (((2 & this.bitmap$0$1) === 0) ? this.derive$macro$111$lzycompute__p1__Lupickle_Types$Writer() : this.derive$macro$111$1)
+});
+$c_Ldemo_Demo$$anon$3.prototype.derive$macro$105__Lupickle_Types$Writer = (function() {
+  return (((1 & this.bitmap$0$1) === 0) ? this.derive$macro$105$lzycompute__p1__Lupickle_Types$Writer() : this.derive$macro$105$1)
+});
+$c_Ldemo_Demo$$anon$3.prototype.derive$macro$114__Lupickle_Types$Writer = (function() {
+  return (((16 & this.bitmap$0$1) === 0) ? this.derive$macro$114$lzycompute__p1__Lupickle_Types$Writer() : this.derive$macro$114$1)
+});
+$c_Ldemo_Demo$$anon$3.prototype.derive$macro$123__Lupickle_Types$Writer = (function() {
+  return (((8 & this.bitmap$0$1) === 0) ? this.derive$macro$123$lzycompute__p1__Lupickle_Types$Writer() : this.derive$macro$123$1)
 });
 $c_Ldemo_Demo$$anon$3.prototype.derive$macro$96$lzycompute__p1__Lupickle_Types$Writer = (function() {
   if (((64 & this.bitmap$0$1) === 0)) {
@@ -1440,12 +1440,12 @@ $c_Ldemo_Demo$$anon$3.prototype.derive$macro$96$lzycompute__p1__Lupickle_Types$W
         var jsx$2 = $m_Lupickle_default$().Internal__Lupickle_Implicits$Internal$();
         var this$2 = arg$outer.derive$macro$99__Lupickle_Types$Writer();
         var jsx$1 = $s_Lupickle_Types$Writer$class__write__Lupickle_Types$Writer__F1(this$2);
-        var this$4 = arg$outer.derive$macro$113__Lupickle_Types$Writer();
-        var f = jsx$2.merge__F1__F1__s_reflect_ClassTag__s_reflect_ClassTag__F1(jsx$1, $s_Lupickle_Types$Writer$class__write__Lupickle_Types$Writer__F1(this$4), new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_ProfileScreen.getClassOf()), new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_UsersScreen$.getClassOf()));
-        var this$8 = arg$outer.derive$macro$116__Lupickle_Types$Writer();
+        var this$4 = arg$outer.derive$macro$105__Lupickle_Types$Writer();
+        var f = jsx$2.merge__F1__F1__s_reflect_ClassTag__s_reflect_ClassTag__F1(jsx$1, $s_Lupickle_Types$Writer$class__write__Lupickle_Types$Writer__F1(this$4), new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_TestScreen.getClassOf()), new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_AboutScreen$.getClassOf()));
+        var this$8 = arg$outer.derive$macro$108__Lupickle_Types$Writer();
         var g = $s_Lupickle_Types$Writer$class__write__Lupickle_Types$Writer__F1(this$8);
         var evidence$6 = $m_s_reflect_ManifestFactory$AnyManifest$();
-        var evidence$7 = new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_IndexScreen$.getClassOf());
+        var evidence$7 = new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_UsersScreen$.getClassOf());
         var f$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(f$3, g$2, evidence$6$1, evidence$7$1) {
           return (function(x0$2$2) {
             var o12 = $s_s_reflect_ClassTag$class__unapply__s_reflect_ClassTag__O__s_Option(evidence$7$1, x0$2$2);
@@ -1463,10 +1463,10 @@ $c_Ldemo_Demo$$anon$3.prototype.derive$macro$96$lzycompute__p1__Lupickle_Types$W
             throw new $c_s_MatchError().init___O(x0$2$2)
           })
         })(f, g, evidence$6, evidence$7));
-        var this$14 = arg$outer.derive$macro$119__Lupickle_Types$Writer();
+        var this$14 = arg$outer.derive$macro$111__Lupickle_Types$Writer();
         var g$1 = $s_Lupickle_Types$Writer$class__write__Lupickle_Types$Writer__F1(this$14);
         var evidence$6$2 = $m_s_reflect_ManifestFactory$AnyManifest$();
-        var evidence$7$2 = new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_AboutScreen$.getClassOf());
+        var evidence$7$2 = new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_ProfileScreen.getClassOf());
         var f$2 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(f$3$1, g$2$1, evidence$6$1$1, evidence$7$1$1) {
           return (function(x0$2$2$1) {
             var o12$1 = $s_s_reflect_ClassTag$class__unapply__s_reflect_ClassTag__O__s_Option(evidence$7$1$1, x0$2$2$1);
@@ -1484,10 +1484,10 @@ $c_Ldemo_Demo$$anon$3.prototype.derive$macro$96$lzycompute__p1__Lupickle_Types$W
             throw new $c_s_MatchError().init___O(x0$2$2$1)
           })
         })(f$1, g$1, evidence$6$2, evidence$7$2));
-        var this$20 = arg$outer.derive$macro$122__Lupickle_Types$Writer();
+        var this$20 = arg$outer.derive$macro$123__Lupickle_Types$Writer();
         var g$3 = $s_Lupickle_Types$Writer$class__write__Lupickle_Types$Writer__F1(this$20);
         var evidence$6$3 = $m_s_reflect_ManifestFactory$AnyManifest$();
-        var evidence$7$3 = new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_TestScreen.getClassOf());
+        var evidence$7$3 = new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_IndexScreen$.getClassOf());
         var _write = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(f$3$2, g$2$2, evidence$6$1$2, evidence$7$1$2) {
           return (function(x0$2$2$2) {
             var o12$2 = $s_s_reflect_ClassTag$class__unapply__s_reflect_ClassTag__O__s_Option(evidence$7$1$2, x0$2$2$2);
@@ -1522,12 +1522,12 @@ $c_Ldemo_Demo$$anon$3.prototype.$classData = $d_Ldemo_Demo$$anon$3;
 /** @constructor */
 function $c_Ldemo_Demo$$anonfun$6$$anon$2() {
   $c_O.call(this);
-  this.derive$macro$87$1 = null;
+  this.derive$macro$73$1 = null;
+  this.derive$macro$79$1 = null;
   this.derive$macro$67$1 = null;
-  this.derive$macro$90$1 = null;
-  this.derive$macro$84$1 = null;
-  this.derive$macro$70$1 = null;
-  this.derive$macro$81$1 = null;
+  this.derive$macro$91$1 = null;
+  this.derive$macro$82$1 = null;
+  this.derive$macro$76$1 = null;
   this.derive$macro$64$1 = null;
   this.bitmap$0$1 = 0
 }
@@ -1541,9 +1541,15 @@ $h_Ldemo_Demo$$anonfun$6$$anon$2.prototype = $c_Ldemo_Demo$$anonfun$6$$anon$2.pr
 $c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.init___Ldemo_Demo$$anonfun$6 = (function($$outer) {
   return this
 });
-$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$87$lzycompute__p1__Lupickle_Types$Reader = (function() {
+$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$91__Lupickle_Types$Reader = (function() {
+  return (((8 & this.bitmap$0$1) === 0) ? this.derive$macro$91$lzycompute__p1__Lupickle_Types$Reader() : this.derive$macro$91$1)
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$82__Lupickle_Types$Reader = (function() {
+  return (((16 & this.bitmap$0$1) === 0) ? this.derive$macro$82$lzycompute__p1__Lupickle_Types$Reader() : this.derive$macro$82$1)
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$73$lzycompute__p1__Lupickle_Types$Reader = (function() {
   if (((1 & this.bitmap$0$1) === 0)) {
-    this.derive$macro$87$1 = new $c_Lupickle_Types$Knot$Reader().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
+    this.derive$macro$73$1 = new $c_Lupickle_Types$Knot$Reader().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
       var this$3 = $m_Lupickle_default$();
       var this$1 = $m_Lupickle_default$();
       var t = $m_Ldemo_AboutScreen$();
@@ -1554,26 +1560,29 @@ $c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$87$lzycompute__p1__Lupic
     })));
     this.bitmap$0$1 = (1 | this.bitmap$0$1)
   };
-  return this.derive$macro$87$1
+  return this.derive$macro$73$1
 });
-$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$81__Lupickle_Types$Reader = (function() {
-  return (((32 & this.bitmap$0$1) === 0) ? this.derive$macro$81$lzycompute__p1__Lupickle_Types$Reader() : this.derive$macro$81$1)
+$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$91$lzycompute__p1__Lupickle_Types$Reader = (function() {
+  if (((8 & this.bitmap$0$1) === 0)) {
+    this.derive$macro$91$1 = new $c_Lupickle_Types$Knot$Reader().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
+      var this$3 = $m_Lupickle_default$();
+      var this$1 = $m_Lupickle_default$();
+      var t = $m_Ldemo_IndexScreen$();
+      var rw = $s_Lupickle_Implicits$class__SingletonR__Lupickle_Implicits__O__Lupickle_Types$Reader(this$1, t);
+      var this$4 = this$3.Reader__Lupickle_Types$Reader$();
+      var _read = new $c_Lupickle_AttributeTagged$$anonfun$annotate$2().init___Lupickle_AttributeTagged__Lupickle_Types$Reader__T(this$3, rw, "demo.IndexScreen");
+      return new $c_Lupickle_Types$Reader$$anon$3().init___Lupickle_Types$Reader$__s_PartialFunction(this$4, _read)
+    })));
+    this.bitmap$0$1 = (8 | this.bitmap$0$1)
+  };
+  return this.derive$macro$91$1
 });
-$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$84__Lupickle_Types$Reader = (function() {
-  return (((8 & this.bitmap$0$1) === 0) ? this.derive$macro$84$lzycompute__p1__Lupickle_Types$Reader() : this.derive$macro$84$1)
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$70__Lupickle_Types$Reader = (function() {
-  return (((16 & this.bitmap$0$1) === 0) ? this.derive$macro$70$lzycompute__p1__Lupickle_Types$Reader() : this.derive$macro$70$1)
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$87__Lupickle_Types$Reader = (function() {
-  return (((1 & this.bitmap$0$1) === 0) ? this.derive$macro$87$lzycompute__p1__Lupickle_Types$Reader() : this.derive$macro$87$1)
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$70$lzycompute__p1__Lupickle_Types$Reader = (function() {
+$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$82$lzycompute__p1__Lupickle_Types$Reader = (function() {
   if (((16 & this.bitmap$0$1) === 0)) {
-    this.derive$macro$70$1 = new $c_Lupickle_Types$Knot$Reader().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1().init___Ldemo_Demo$$anonfun$6$$anon$2(this));
+    this.derive$macro$82$1 = new $c_Lupickle_Types$Knot$Reader().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1().init___Ldemo_Demo$$anonfun$6$$anon$2(this));
     this.bitmap$0$1 = (16 | this.bitmap$0$1)
   };
-  return this.derive$macro$70$1
+  return this.derive$macro$82$1
 });
 $c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$64$lzycompute__p1__Lupickle_Types$Reader = (function() {
   if (((64 & this.bitmap$0$1) === 0)) {
@@ -1582,13 +1591,13 @@ $c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$64$lzycompute__p1__Lupic
         var this$11 = $m_Lupickle_default$().Reader__Lupickle_Types$Reader$();
         var this$2 = arg$outer.derive$macro$67__Lupickle_Types$Reader();
         var jsx$4 = $s_Lupickle_Types$Reader$class__read__Lupickle_Types$Reader__s_PartialFunction(this$2);
-        var this$4 = arg$outer.derive$macro$81__Lupickle_Types$Reader();
+        var this$4 = arg$outer.derive$macro$73__Lupickle_Types$Reader();
         var jsx$3 = jsx$4.orElse__s_PartialFunction__s_PartialFunction($s_Lupickle_Types$Reader$class__read__Lupickle_Types$Reader__s_PartialFunction(this$4));
-        var this$6 = arg$outer.derive$macro$84__Lupickle_Types$Reader();
+        var this$6 = arg$outer.derive$macro$76__Lupickle_Types$Reader();
         var jsx$2 = jsx$3.orElse__s_PartialFunction__s_PartialFunction($s_Lupickle_Types$Reader$class__read__Lupickle_Types$Reader__s_PartialFunction(this$6));
-        var this$8 = arg$outer.derive$macro$87__Lupickle_Types$Reader();
+        var this$8 = arg$outer.derive$macro$79__Lupickle_Types$Reader();
         var jsx$1 = jsx$2.orElse__s_PartialFunction__s_PartialFunction($s_Lupickle_Types$Reader$class__read__Lupickle_Types$Reader__s_PartialFunction(this$8));
-        var this$10 = arg$outer.derive$macro$90__Lupickle_Types$Reader();
+        var this$10 = arg$outer.derive$macro$91__Lupickle_Types$Reader();
         var _read = jsx$1.orElse__s_PartialFunction__s_PartialFunction($s_Lupickle_Types$Reader$class__read__Lupickle_Types$Reader__s_PartialFunction(this$10));
         return new $c_Lupickle_Types$Reader$$anon$3().init___Lupickle_Types$Reader$__s_PartialFunction(this$11, _read)
       })
@@ -1600,26 +1609,9 @@ $c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$64$lzycompute__p1__Lupic
 $c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$64__Lupickle_Types$Reader = (function() {
   return (((64 & this.bitmap$0$1) === 0) ? this.derive$macro$64$lzycompute__p1__Lupickle_Types$Reader() : this.derive$macro$64$1)
 });
-$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$67$lzycompute__p1__Lupickle_Types$Reader = (function() {
-  if (((2 & this.bitmap$0$1) === 0)) {
-    this.derive$macro$67$1 = new $c_Lupickle_Types$Knot$Reader().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1().init___Ldemo_Demo$$anonfun$6$$anon$2(this));
-    this.bitmap$0$1 = (2 | this.bitmap$0$1)
-  };
-  return this.derive$macro$67$1
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$67__Lupickle_Types$Reader = (function() {
-  return (((2 & this.bitmap$0$1) === 0) ? this.derive$macro$67$lzycompute__p1__Lupickle_Types$Reader() : this.derive$macro$67$1)
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$90$lzycompute__p1__Lupickle_Types$Reader = (function() {
-  if (((4 & this.bitmap$0$1) === 0)) {
-    this.derive$macro$90$1 = new $c_Lupickle_Types$Knot$Reader().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1().init___Ldemo_Demo$$anonfun$6$$anon$2(this));
-    this.bitmap$0$1 = (4 | this.bitmap$0$1)
-  };
-  return this.derive$macro$90$1
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$81$lzycompute__p1__Lupickle_Types$Reader = (function() {
+$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$76$lzycompute__p1__Lupickle_Types$Reader = (function() {
   if (((32 & this.bitmap$0$1) === 0)) {
-    this.derive$macro$81$1 = new $c_Lupickle_Types$Knot$Reader().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
+    this.derive$macro$76$1 = new $c_Lupickle_Types$Knot$Reader().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
       var this$3 = $m_Lupickle_default$();
       var this$1 = $m_Lupickle_default$();
       var t = $m_Ldemo_UsersScreen$();
@@ -1630,25 +1622,33 @@ $c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$81$lzycompute__p1__Lupic
     })));
     this.bitmap$0$1 = (32 | this.bitmap$0$1)
   };
-  return this.derive$macro$81$1
+  return this.derive$macro$76$1
 });
-$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$84$lzycompute__p1__Lupickle_Types$Reader = (function() {
-  if (((8 & this.bitmap$0$1) === 0)) {
-    this.derive$macro$84$1 = new $c_Lupickle_Types$Knot$Reader().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
-      var this$3 = $m_Lupickle_default$();
-      var this$1 = $m_Lupickle_default$();
-      var t = $m_Ldemo_IndexScreen$();
-      var rw = $s_Lupickle_Implicits$class__SingletonR__Lupickle_Implicits__O__Lupickle_Types$Reader(this$1, t);
-      var this$4 = this$3.Reader__Lupickle_Types$Reader$();
-      var _read = new $c_Lupickle_AttributeTagged$$anonfun$annotate$2().init___Lupickle_AttributeTagged__Lupickle_Types$Reader__T(this$3, rw, "demo.IndexScreen");
-      return new $c_Lupickle_Types$Reader$$anon$3().init___Lupickle_Types$Reader$__s_PartialFunction(this$4, _read)
-    })));
-    this.bitmap$0$1 = (8 | this.bitmap$0$1)
+$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$73__Lupickle_Types$Reader = (function() {
+  return (((1 & this.bitmap$0$1) === 0) ? this.derive$macro$73$lzycompute__p1__Lupickle_Types$Reader() : this.derive$macro$73$1)
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$67$lzycompute__p1__Lupickle_Types$Reader = (function() {
+  if (((4 & this.bitmap$0$1) === 0)) {
+    this.derive$macro$67$1 = new $c_Lupickle_Types$Knot$Reader().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1().init___Ldemo_Demo$$anonfun$6$$anon$2(this));
+    this.bitmap$0$1 = (4 | this.bitmap$0$1)
   };
-  return this.derive$macro$84$1
+  return this.derive$macro$67$1
 });
-$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$90__Lupickle_Types$Reader = (function() {
-  return (((4 & this.bitmap$0$1) === 0) ? this.derive$macro$90$lzycompute__p1__Lupickle_Types$Reader() : this.derive$macro$90$1)
+$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$79$lzycompute__p1__Lupickle_Types$Reader = (function() {
+  if (((2 & this.bitmap$0$1) === 0)) {
+    this.derive$macro$79$1 = new $c_Lupickle_Types$Knot$Reader().init___Lupickle_Types$Knot$__F0($m_Lupickle_default$().Knot__Lupickle_Types$Knot$(), new $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1().init___Ldemo_Demo$$anonfun$6$$anon$2(this));
+    this.bitmap$0$1 = (2 | this.bitmap$0$1)
+  };
+  return this.derive$macro$79$1
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$67__Lupickle_Types$Reader = (function() {
+  return (((4 & this.bitmap$0$1) === 0) ? this.derive$macro$67$lzycompute__p1__Lupickle_Types$Reader() : this.derive$macro$67$1)
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$76__Lupickle_Types$Reader = (function() {
+  return (((32 & this.bitmap$0$1) === 0) ? this.derive$macro$76$lzycompute__p1__Lupickle_Types$Reader() : this.derive$macro$76$1)
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2.prototype.derive$macro$79__Lupickle_Types$Reader = (function() {
+  return (((2 & this.bitmap$0$1) === 0) ? this.derive$macro$79$lzycompute__p1__Lupickle_Types$Reader() : this.derive$macro$79$1)
 });
 var $d_Ldemo_Demo$$anonfun$6$$anon$2 = new $TypeData().initClass({
   Ldemo_Demo$$anonfun$6$$anon$2: 0
@@ -11603,42 +11603,42 @@ $c_Ldemo_Demo$$anon$1.prototype.init___ = (function() {
     var ec = $as_s_concurrent_ExecutionContext(x1.$$und2$f);
     if ((x1.$$und1$f !== null)) {
       if ((ec !== null)) {
-        return $m_s_concurrent_Future$().successful__O__s_concurrent_Future($m_Ldemo_AboutScreen$())
+        return $m_s_concurrent_Future$().successful__O__s_concurrent_Future($m_Ldemo_IndexScreen$())
       }
     };
     throw new $c_s_MatchError().init___O(x1)
   }));
-  var jsx$4 = new $c_T2().init___O__O("/about", y);
-  var y$1 = new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function(x0$2$2, x1$2$2) {
-    var x0$2 = $as_T(x0$2$2);
-    var x1$2 = $as_s_concurrent_ExecutionContext(x1$2$2);
-    var x1$3 = new $c_T2().init___O__O(x0$2, x1$2);
-    var ec$1 = $as_s_concurrent_ExecutionContext(x1$3.$$und2$f);
-    if ((x1$3.$$und1$f !== null)) {
+  var jsx$4 = new $c_T2().init___O__O("/index", y);
+  var y$1 = new $c_Ldemo_Demo$$anon$1$$anonfun$2().init___Ldemo_Demo$$anon$1(this);
+  var jsx$3 = new $c_T2().init___O__O("/profile", y$1);
+  var y$2 = new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function(x0$3$2, x1$3$2) {
+    var x0$3 = $as_T(x0$3$2);
+    var x1$3 = $as_s_concurrent_ExecutionContext(x1$3$2);
+    var x1$2 = new $c_T2().init___O__O(x0$3, x1$3);
+    var ec$1 = $as_s_concurrent_ExecutionContext(x1$2.$$und2$f);
+    if ((x1$2.$$und1$f !== null)) {
       if ((ec$1 !== null)) {
         return $m_s_concurrent_Future$().successful__O__s_concurrent_Future($m_Ldemo_UsersScreen$())
       }
     };
-    throw new $c_s_MatchError().init___O(x1$3)
+    throw new $c_s_MatchError().init___O(x1$2)
   }));
-  var jsx$3 = new $c_T2().init___O__O("/users", y$1);
-  var y$2 = new $c_Ldemo_Demo$$anon$1$$anonfun$3().init___Ldemo_Demo$$anon$1(this);
-  var jsx$2 = new $c_T2().init___O__O("/test", y$2);
-  var y$3 = new $c_Ldemo_Demo$$anon$1$$anonfun$4().init___Ldemo_Demo$$anon$1(this);
-  var jsx$1 = new $c_T2().init___O__O("/profile", y$3);
-  var y$4 = new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function(x0$5$2, x1$5$2) {
-    var x0$5 = $as_T(x0$5$2);
-    var x1$5 = $as_s_concurrent_ExecutionContext(x1$5$2);
-    var x1$4 = new $c_T2().init___O__O(x0$5, x1$5);
-    var ec$2 = $as_s_concurrent_ExecutionContext(x1$4.$$und2$f);
-    if ((x1$4.$$und1$f !== null)) {
+  var jsx$2 = new $c_T2().init___O__O("/users", y$2);
+  var y$3 = new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function(x0$4$2, x1$4$2) {
+    var x0$4 = $as_T(x0$4$2);
+    var x1$4 = $as_s_concurrent_ExecutionContext(x1$4$2);
+    var x1$5 = new $c_T2().init___O__O(x0$4, x1$4);
+    var ec$2 = $as_s_concurrent_ExecutionContext(x1$5.$$und2$f);
+    if ((x1$5.$$und1$f !== null)) {
       if ((ec$2 !== null)) {
-        return $m_s_concurrent_Future$().successful__O__s_concurrent_Future($m_Ldemo_IndexScreen$())
+        return $m_s_concurrent_Future$().successful__O__s_concurrent_Future($m_Ldemo_AboutScreen$())
       }
     };
-    throw new $c_s_MatchError().init___O(x1$4)
+    throw new $c_s_MatchError().init___O(x1$5)
   }));
-  var array = [jsx$4, jsx$3, jsx$2, jsx$1, new $c_T2().init___O__O("/index", y$4)];
+  var jsx$1 = new $c_T2().init___O__O("/about", y$3);
+  var y$4 = new $c_Ldemo_Demo$$anon$1$$anonfun$5().init___Ldemo_Demo$$anon$1(this);
+  var array = [jsx$4, jsx$3, jsx$2, jsx$1, new $c_T2().init___O__O("/test", y$4)];
   var this$12 = new $c_scm_MapBuilder().init___sc_GenMap($m_sci_Map$EmptyMap$());
   var i = 0;
   var len = $uI(array["length"]);
@@ -11690,10 +11690,14 @@ $c_Ldemo_Demo$$anon$1.prototype.linkGiven__T__Ldemo_Screen__s_concurrent_Executi
 $c_Ldemo_Demo$$anon$1.prototype.urlFor__Ldemo_Screen__T = (function(link) {
   if ($is_Ldemo_UsersScreen$(link)) {
     return "/users"
+  } else if ($is_Ldemo_AboutScreen$(link)) {
+    return "/about"
+  } else if ($is_Ldemo_IndexScreen$(link)) {
+    return "/index"
   } else if ($is_Ldemo_TestScreen(link)) {
-    var x3 = $as_Ldemo_TestScreen(link);
+    var x5 = $as_Ldemo_TestScreen(link);
     $m_sci_List$();
-    var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ldemo_Demo$().StringPart$1.toParts__O__sci_List(x3.inp$1)]);
+    var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ldemo_Demo$().StringPart$1.toParts__O__sci_List(x5.inp$1)]);
     var this$3 = $m_sci_List$();
     var cbf = this$3.ReusableCBFInstance$2;
     var this$4 = $as_sci_List($s_sc_TraversableLike$class__to__sc_TraversableLike__scg_CanBuildFrom__O(xs, cbf));
@@ -11708,10 +11712,6 @@ $c_Ldemo_Demo$$anon$1.prototype.urlFor__Ldemo_Screen__T = (function(link) {
     };
     var allParts = b.toList__sci_List();
     return ("/test/" + $s_sc_TraversableOnce$class__mkString__sc_TraversableOnce__T__T__T__T(allParts, "", "/", ""))
-  } else if ($is_Ldemo_IndexScreen$(link)) {
-    return "/index"
-  } else if ($is_Ldemo_AboutScreen$(link)) {
-    return "/about"
   } else if ($is_Ldemo_ProfileScreen(link)) {
     var x6 = $as_Ldemo_ProfileScreen(link);
     $m_sci_List$();
@@ -20630,76 +20630,21 @@ var $d_sjsr_RuntimeLong = new $TypeData().initClass({
 });
 $c_sjsr_RuntimeLong.prototype.$classData = $d_sjsr_RuntimeLong;
 /** @constructor */
-function $c_Ldemo_Demo$$anon$1$$anonfun$3() {
+function $c_Ldemo_Demo$$anon$1$$anonfun$2() {
   $c_sr_AbstractFunction2.call(this)
 }
-$c_Ldemo_Demo$$anon$1$$anonfun$3.prototype = new $h_sr_AbstractFunction2();
-$c_Ldemo_Demo$$anon$1$$anonfun$3.prototype["constructor"] = $c_Ldemo_Demo$$anon$1$$anonfun$3;
+$c_Ldemo_Demo$$anon$1$$anonfun$2.prototype = new $h_sr_AbstractFunction2();
+$c_Ldemo_Demo$$anon$1$$anonfun$2.prototype["constructor"] = $c_Ldemo_Demo$$anon$1$$anonfun$2;
 /** @constructor */
-function $h_Ldemo_Demo$$anon$1$$anonfun$3() {
+function $h_Ldemo_Demo$$anon$1$$anonfun$2() {
   /*<skip>*/
 }
-$h_Ldemo_Demo$$anon$1$$anonfun$3.prototype = $c_Ldemo_Demo$$anon$1$$anonfun$3.prototype;
-$c_Ldemo_Demo$$anon$1$$anonfun$3.prototype.init___Ldemo_Demo$$anon$1 = (function($$outer) {
+$h_Ldemo_Demo$$anon$1$$anonfun$2.prototype = $c_Ldemo_Demo$$anon$1$$anonfun$2.prototype;
+$c_Ldemo_Demo$$anon$1$$anonfun$2.prototype.init___Ldemo_Demo$$anon$1 = (function($$outer) {
   return this
 });
-$c_Ldemo_Demo$$anon$1$$anonfun$3.prototype.apply__T__s_concurrent_ExecutionContext__s_concurrent_Future = (function(x0$3, x1$3) {
-  var x1 = new $c_T2().init___O__O(x0$3, x1$3);
-  var remaining = $as_T(x1.$$und1$f);
-  var ec = $as_s_concurrent_ExecutionContext(x1.$$und2$f);
-  if ((remaining !== null)) {
-    if ((ec !== null)) {
-      var this$2 = new $c_sci_StringOps().init___T(remaining);
-      var xs = $s_sci_StringLike$class__split__sci_StringLike__C__AT(this$2, 47);
-      var this$4 = $m_sci_List$();
-      var cbf = this$4.ReusableCBFInstance$2;
-      var b = cbf.apply__scm_Builder();
-      b.sizeHint__I__V(xs.u["length"]);
-      b.$$plus$plus$eq__sc_TraversableOnce__scg_Growable(new $c_scm_WrappedArray$ofRef().init___AO(xs));
-      var unusedParts = $as_sci_List(b.result__O()).drop__I__sci_List(1);
-      var partial = $m_Ldemo_Demo$().StringPart$1;
-      var r = partial.fromParts__sci_List__s_concurrent_ExecutionContext__s_concurrent_Future(unusedParts.take__I__sci_List(partial.size__I()), $m_sjs_concurrent_JSExecutionContext$Implicits$().queue$1);
-      unusedParts = unusedParts.drop__I__sci_List(partial.size__I());
-      var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(acc0$2) {
-        var acc0 = $as_T(acc0$2);
-        return new $c_Ldemo_TestScreen().init___T(acc0)
-      }));
-      var executor = $m_sjs_concurrent_JSExecutionContext$Implicits$().queue$1;
-      return $s_s_concurrent_Future$class__map__s_concurrent_Future__F1__s_concurrent_ExecutionContext__s_concurrent_Future(r, f, executor)
-    }
-  };
-  throw new $c_s_MatchError().init___O(x1)
-});
-$c_Ldemo_Demo$$anon$1$$anonfun$3.prototype.apply__O__O__O = (function(v1, v2) {
-  return this.apply__T__s_concurrent_ExecutionContext__s_concurrent_Future($as_T(v1), $as_s_concurrent_ExecutionContext(v2))
-});
-var $d_Ldemo_Demo$$anon$1$$anonfun$3 = new $TypeData().initClass({
-  Ldemo_Demo$$anon$1$$anonfun$3: 0
-}, false, "demo.Demo$$anon$1$$anonfun$3", {
-  Ldemo_Demo$$anon$1$$anonfun$3: 1,
-  sr_AbstractFunction2: 1,
-  O: 1,
-  F2: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ldemo_Demo$$anon$1$$anonfun$3.prototype.$classData = $d_Ldemo_Demo$$anon$1$$anonfun$3;
-/** @constructor */
-function $c_Ldemo_Demo$$anon$1$$anonfun$4() {
-  $c_sr_AbstractFunction2.call(this)
-}
-$c_Ldemo_Demo$$anon$1$$anonfun$4.prototype = new $h_sr_AbstractFunction2();
-$c_Ldemo_Demo$$anon$1$$anonfun$4.prototype["constructor"] = $c_Ldemo_Demo$$anon$1$$anonfun$4;
-/** @constructor */
-function $h_Ldemo_Demo$$anon$1$$anonfun$4() {
-  /*<skip>*/
-}
-$h_Ldemo_Demo$$anon$1$$anonfun$4.prototype = $c_Ldemo_Demo$$anon$1$$anonfun$4.prototype;
-$c_Ldemo_Demo$$anon$1$$anonfun$4.prototype.init___Ldemo_Demo$$anon$1 = (function($$outer) {
-  return this
-});
-$c_Ldemo_Demo$$anon$1$$anonfun$4.prototype.apply__T__s_concurrent_ExecutionContext__s_concurrent_Future = (function(x0$4, x1$4) {
-  var x1 = new $c_T2().init___O__O(x0$4, x1$4);
+$c_Ldemo_Demo$$anon$1$$anonfun$2.prototype.apply__T__s_concurrent_ExecutionContext__s_concurrent_Future = (function(x0$2, x1$2) {
+  var x1 = new $c_T2().init___O__O(x0$2, x1$2);
   var remaining = $as_T(x1.$$und1$f);
   var ec = $as_s_concurrent_ExecutionContext(x1.$$und2$f);
   if ((remaining !== null)) {
@@ -20725,20 +20670,75 @@ $c_Ldemo_Demo$$anon$1$$anonfun$4.prototype.apply__T__s_concurrent_ExecutionConte
   };
   throw new $c_s_MatchError().init___O(x1)
 });
-$c_Ldemo_Demo$$anon$1$$anonfun$4.prototype.apply__O__O__O = (function(v1, v2) {
+$c_Ldemo_Demo$$anon$1$$anonfun$2.prototype.apply__O__O__O = (function(v1, v2) {
   return this.apply__T__s_concurrent_ExecutionContext__s_concurrent_Future($as_T(v1), $as_s_concurrent_ExecutionContext(v2))
 });
-var $d_Ldemo_Demo$$anon$1$$anonfun$4 = new $TypeData().initClass({
-  Ldemo_Demo$$anon$1$$anonfun$4: 0
-}, false, "demo.Demo$$anon$1$$anonfun$4", {
-  Ldemo_Demo$$anon$1$$anonfun$4: 1,
+var $d_Ldemo_Demo$$anon$1$$anonfun$2 = new $TypeData().initClass({
+  Ldemo_Demo$$anon$1$$anonfun$2: 0
+}, false, "demo.Demo$$anon$1$$anonfun$2", {
+  Ldemo_Demo$$anon$1$$anonfun$2: 1,
   sr_AbstractFunction2: 1,
   O: 1,
   F2: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Ldemo_Demo$$anon$1$$anonfun$4.prototype.$classData = $d_Ldemo_Demo$$anon$1$$anonfun$4;
+$c_Ldemo_Demo$$anon$1$$anonfun$2.prototype.$classData = $d_Ldemo_Demo$$anon$1$$anonfun$2;
+/** @constructor */
+function $c_Ldemo_Demo$$anon$1$$anonfun$5() {
+  $c_sr_AbstractFunction2.call(this)
+}
+$c_Ldemo_Demo$$anon$1$$anonfun$5.prototype = new $h_sr_AbstractFunction2();
+$c_Ldemo_Demo$$anon$1$$anonfun$5.prototype["constructor"] = $c_Ldemo_Demo$$anon$1$$anonfun$5;
+/** @constructor */
+function $h_Ldemo_Demo$$anon$1$$anonfun$5() {
+  /*<skip>*/
+}
+$h_Ldemo_Demo$$anon$1$$anonfun$5.prototype = $c_Ldemo_Demo$$anon$1$$anonfun$5.prototype;
+$c_Ldemo_Demo$$anon$1$$anonfun$5.prototype.init___Ldemo_Demo$$anon$1 = (function($$outer) {
+  return this
+});
+$c_Ldemo_Demo$$anon$1$$anonfun$5.prototype.apply__T__s_concurrent_ExecutionContext__s_concurrent_Future = (function(x0$5, x1$5) {
+  var x1 = new $c_T2().init___O__O(x0$5, x1$5);
+  var remaining = $as_T(x1.$$und1$f);
+  var ec = $as_s_concurrent_ExecutionContext(x1.$$und2$f);
+  if ((remaining !== null)) {
+    if ((ec !== null)) {
+      var this$2 = new $c_sci_StringOps().init___T(remaining);
+      var xs = $s_sci_StringLike$class__split__sci_StringLike__C__AT(this$2, 47);
+      var this$4 = $m_sci_List$();
+      var cbf = this$4.ReusableCBFInstance$2;
+      var b = cbf.apply__scm_Builder();
+      b.sizeHint__I__V(xs.u["length"]);
+      b.$$plus$plus$eq__sc_TraversableOnce__scg_Growable(new $c_scm_WrappedArray$ofRef().init___AO(xs));
+      var unusedParts = $as_sci_List(b.result__O()).drop__I__sci_List(1);
+      var partial = $m_Ldemo_Demo$().StringPart$1;
+      var r = partial.fromParts__sci_List__s_concurrent_ExecutionContext__s_concurrent_Future(unusedParts.take__I__sci_List(partial.size__I()), $m_sjs_concurrent_JSExecutionContext$Implicits$().queue$1);
+      unusedParts = unusedParts.drop__I__sci_List(partial.size__I());
+      var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(acc0$2) {
+        var acc0 = $as_T(acc0$2);
+        return new $c_Ldemo_TestScreen().init___T(acc0)
+      }));
+      var executor = $m_sjs_concurrent_JSExecutionContext$Implicits$().queue$1;
+      return $s_s_concurrent_Future$class__map__s_concurrent_Future__F1__s_concurrent_ExecutionContext__s_concurrent_Future(r, f, executor)
+    }
+  };
+  throw new $c_s_MatchError().init___O(x1)
+});
+$c_Ldemo_Demo$$anon$1$$anonfun$5.prototype.apply__O__O__O = (function(v1, v2) {
+  return this.apply__T__s_concurrent_ExecutionContext__s_concurrent_Future($as_T(v1), $as_s_concurrent_ExecutionContext(v2))
+});
+var $d_Ldemo_Demo$$anon$1$$anonfun$5 = new $TypeData().initClass({
+  Ldemo_Demo$$anon$1$$anonfun$5: 0
+}, false, "demo.Demo$$anon$1$$anonfun$5", {
+  Ldemo_Demo$$anon$1$$anonfun$5: 1,
+  sr_AbstractFunction2: 1,
+  O: 1,
+  F2: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Ldemo_Demo$$anon$1$$anonfun$5.prototype.$classData = $d_Ldemo_Demo$$anon$1$$anonfun$5;
 /** @constructor */
 function $c_Ldemo_Demo$$anon$1$$anonfun$linkGiven$3() {
   $c_sr_AbstractFunction1.call(this);
@@ -20833,17 +20833,122 @@ var $d_Ldemo_Demo$$anon$1$$anonfun$linkGiven$4 = new $TypeData().initClass({
 });
 $c_Ldemo_Demo$$anon$1$$anonfun$linkGiven$4.prototype.$classData = $d_Ldemo_Demo$$anon$1$$anonfun$linkGiven$4;
 /** @constructor */
-function $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1() {
-  $c_sr_AbstractFunction0.call(this)
+function $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1() {
+  $c_sr_AbstractFunction0.call(this);
+  this.$$outer$2 = null
 }
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1.prototype = new $h_sr_AbstractFunction0();
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1.prototype["constructor"] = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1;
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1.prototype = new $h_sr_AbstractFunction0();
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1.prototype["constructor"] = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1;
 /** @constructor */
-function $h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1() {
+function $h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1() {
   /*<skip>*/
 }
-$h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1.prototype = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1.prototype;
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1.prototype.apply__Lupickle_Types$Writer = (function() {
+$h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1.prototype = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1.prototype;
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1.prototype.apply__Lupickle_Types$Writer = (function() {
+  var this$12 = $m_Lupickle_default$();
+  var this$10 = $m_Lupickle_default$();
+  var f = new $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9().init___Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1(this);
+  var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array(["user"]);
+  var len = $uI(xs.array$6["length"]);
+  var array = $newArrayObject($d_T.getArrayOf(), [len]);
+  var elem$1 = 0;
+  elem$1 = 0;
+  var this$4 = new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(xs, 0, $uI(xs.array$6["length"]));
+  while (this$4.hasNext__Z()) {
+    var arg1 = this$4.next__O();
+    array.u[elem$1] = arg1;
+    elem$1 = ((1 + elem$1) | 0)
+  };
+  var xs$1 = new $c_sjs_js_WrappedArray().init___sjs_js_Array([null]);
+  var len$1 = $uI(xs$1.array$6["length"]);
+  var array$1 = $newArrayObject($d_Lupickle_Js$Value.getArrayOf(), [len$1]);
+  var elem$1$1 = 0;
+  elem$1$1 = 0;
+  var this$8 = new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(xs$1, 0, $uI(xs$1.array$6["length"]));
+  while (this$8.hasNext__Z()) {
+    var arg1$1 = this$8.next__O();
+    array$1.u[elem$1$1] = arg1$1;
+    elem$1$1 = ((1 + elem$1$1) | 0)
+  };
+  var this$9 = $m_Lupickle_default$();
+  var evidence$1 = this.$$outer$2.derive$macro$114__Lupickle_Types$Writer();
+  var evidence$9 = $as_Lupickle_Types$Writer($s_Lupickle_Generated$class__Tuple1W__Lupickle_Generated__O__O(this$9, evidence$1));
+  var rw = $s_Lupickle_Implicits$class__CaseW__Lupickle_Implicits__F1__AT__ALupickle_Js$Value__Lupickle_Types$Writer__Lupickle_Types$Writer(this$10, f, array, array$1, evidence$9);
+  var evidence$6 = new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_ProfileScreen.getClassOf());
+  return $s_Lupickle_AttributeTagged$class__annotate__Lupickle_AttributeTagged__Lupickle_Types$Writer__T__s_reflect_ClassTag__Lupickle_Types$Writer(this$12, rw, "demo.ProfileScreen", evidence$6)
+});
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1.prototype.init___Ldemo_Demo$$anon$3 = (function($$outer) {
+  if (($$outer === null)) {
+    throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(null)
+  } else {
+    this.$$outer$2 = $$outer
+  };
+  return this
+});
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1.prototype.apply__O = (function() {
+  return this.apply__Lupickle_Types$Writer()
+});
+var $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1 = new $TypeData().initClass({
+  Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1: 0
+}, false, "demo.Demo$$anon$3$$anonfun$derive$macro$111$1", {
+  Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1: 1,
+  sr_AbstractFunction0: 1,
+  O: 1,
+  F0: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1.prototype.$classData = $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1;
+/** @constructor */
+function $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9() {
+  $c_sr_AbstractFunction1.call(this)
+}
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9.prototype = new $h_sr_AbstractFunction1();
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9.prototype["constructor"] = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9;
+/** @constructor */
+function $h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9() {
+  /*<skip>*/
+}
+$h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9.prototype = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9.prototype;
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9.prototype.apply__O__O = (function(v1) {
+  return this.apply__Ldemo_ProfileScreen__s_Option($as_Ldemo_ProfileScreen(v1))
+});
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9.prototype.init___Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1 = (function($$outer) {
+  return this
+});
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9.prototype.apply__Ldemo_ProfileScreen__s_Option = (function(x$8) {
+  var this$1 = $m_Ldemo_ProfileScreen$().unapply__Ldemo_ProfileScreen__s_Option(x$8);
+  if (this$1.isEmpty__Z()) {
+    return $m_s_None$()
+  } else {
+    var arg1 = this$1.get__O();
+    var _1 = $as_Ldemo_Users$User(arg1);
+    return new $c_s_Some().init___O(new $c_s_Tuple1().init___O(_1))
+  }
+});
+var $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9 = new $TypeData().initClass({
+  Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9: 0
+}, false, "demo.Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9", {
+  Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9: 1,
+  sr_AbstractFunction1: 1,
+  O: 1,
+  F1: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9.prototype.$classData = $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$111$1$$anonfun$apply$9;
+/** @constructor */
+function $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1() {
+  $c_sr_AbstractFunction0.call(this)
+}
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1.prototype = new $h_sr_AbstractFunction0();
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1.prototype["constructor"] = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1;
+/** @constructor */
+function $h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1() {
+  /*<skip>*/
+}
+$h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1.prototype = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1.prototype;
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1.prototype.apply__Lupickle_Types$Writer = (function() {
   var this$10 = $m_Lupickle_default$();
   var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(x$0$2) {
     var x$0 = $as_Ldemo_Users$User(x$0$2);
@@ -20879,38 +20984,38 @@ $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1.prototype.apply__Lupickle_Type
   var evidence$9 = $as_Lupickle_Types$Writer($s_Lupickle_Generated$class__Tuple4W__Lupickle_Generated__O__O__O__O__O(this$9, evidence$13, evidence$14, evidence$15, evidence$16));
   return $s_Lupickle_Implicits$class__CaseW__Lupickle_Implicits__F1__AT__ALupickle_Js$Value__Lupickle_Types$Writer__Lupickle_Types$Writer(this$10, f, array, array$1, evidence$9)
 });
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1.prototype.init___Ldemo_Demo$$anon$3 = (function($$outer) {
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1.prototype.init___Ldemo_Demo$$anon$3 = (function($$outer) {
   return this
 });
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1.prototype.apply__O = (function() {
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1.prototype.apply__O = (function() {
   return this.apply__Lupickle_Types$Writer()
 });
-var $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1 = new $TypeData().initClass({
-  Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1: 0
-}, false, "demo.Demo$$anon$3$$anonfun$derive$macro$102$1", {
-  Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1: 1,
+var $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1 = new $TypeData().initClass({
+  Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1: 0
+}, false, "demo.Demo$$anon$3$$anonfun$derive$macro$114$1", {
+  Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1: 1,
   sr_AbstractFunction0: 1,
   O: 1,
   F0: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1.prototype.$classData = $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$102$1;
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1.prototype.$classData = $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$114$1;
 /** @constructor */
-function $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1() {
+function $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1() {
   $c_sr_AbstractFunction0.call(this)
 }
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1.prototype = new $h_sr_AbstractFunction0();
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1.prototype["constructor"] = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1;
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1.prototype = new $h_sr_AbstractFunction0();
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1.prototype["constructor"] = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1;
 /** @constructor */
-function $h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1() {
+function $h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1() {
   /*<skip>*/
 }
-$h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1.prototype = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1.prototype;
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1.prototype.apply__Lupickle_Types$Writer = (function() {
+$h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1.prototype = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1.prototype;
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1.prototype.apply__Lupickle_Types$Writer = (function() {
   var this$12 = $m_Lupickle_default$();
   var this$10 = $m_Lupickle_default$();
-  var f = new $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11().init___Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1(this);
+  var f = new $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11().init___Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1(this);
   var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array(["inp"]);
   var len = $uI(xs.array$6["length"]);
   var array = $newArrayObject($d_T.getArrayOf(), [len]);
@@ -20940,112 +21045,7 @@ $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1.prototype.apply__Lupickle_Type
   var evidence$6 = new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_TestScreen.getClassOf());
   return $s_Lupickle_AttributeTagged$class__annotate__Lupickle_AttributeTagged__Lupickle_Types$Writer__T__s_reflect_ClassTag__Lupickle_Types$Writer(this$12, rw, "demo.TestScreen", evidence$6)
 });
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1.prototype.init___Ldemo_Demo$$anon$3 = (function($$outer) {
-  return this
-});
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1.prototype.apply__O = (function() {
-  return this.apply__Lupickle_Types$Writer()
-});
-var $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1 = new $TypeData().initClass({
-  Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1: 0
-}, false, "demo.Demo$$anon$3$$anonfun$derive$macro$122$1", {
-  Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1: 1,
-  sr_AbstractFunction0: 1,
-  O: 1,
-  F0: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1.prototype.$classData = $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1;
-/** @constructor */
-function $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11() {
-  $c_sr_AbstractFunction1.call(this)
-}
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11.prototype = new $h_sr_AbstractFunction1();
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11.prototype["constructor"] = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11;
-/** @constructor */
-function $h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11() {
-  /*<skip>*/
-}
-$h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11.prototype = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11.prototype;
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11.prototype.apply__O__O = (function(v1) {
-  return this.apply__Ldemo_TestScreen__s_Option($as_Ldemo_TestScreen(v1))
-});
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11.prototype.init___Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1 = (function($$outer) {
-  return this
-});
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11.prototype.apply__Ldemo_TestScreen__s_Option = (function(x$9) {
-  var this$1 = $m_Ldemo_TestScreen$().unapply__Ldemo_TestScreen__s_Option(x$9);
-  if (this$1.isEmpty__Z()) {
-    return $m_s_None$()
-  } else {
-    var arg1 = this$1.get__O();
-    var _1 = $as_T(arg1);
-    return new $c_s_Some().init___O(new $c_s_Tuple1().init___O(_1))
-  }
-});
-var $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11 = new $TypeData().initClass({
-  Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11: 0
-}, false, "demo.Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11", {
-  Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11: 1,
-  sr_AbstractFunction1: 1,
-  O: 1,
-  F1: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11.prototype.$classData = $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$122$1$$anonfun$apply$11;
-/** @constructor */
-function $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1() {
-  $c_sr_AbstractFunction0.call(this);
-  this.$$outer$2 = null
-}
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1.prototype = new $h_sr_AbstractFunction0();
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1.prototype["constructor"] = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1;
-/** @constructor */
-function $h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1() {
-  /*<skip>*/
-}
-$h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1.prototype = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1.prototype;
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1.prototype.apply__Lupickle_Types$Writer = (function() {
-  var this$12 = $m_Lupickle_default$();
-  var this$10 = $m_Lupickle_default$();
-  var f = new $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9().init___Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1(this);
-  var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array(["user"]);
-  var len = $uI(xs.array$6["length"]);
-  var array = $newArrayObject($d_T.getArrayOf(), [len]);
-  var elem$1 = 0;
-  elem$1 = 0;
-  var this$4 = new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(xs, 0, $uI(xs.array$6["length"]));
-  while (this$4.hasNext__Z()) {
-    var arg1 = this$4.next__O();
-    array.u[elem$1] = arg1;
-    elem$1 = ((1 + elem$1) | 0)
-  };
-  var xs$1 = new $c_sjs_js_WrappedArray().init___sjs_js_Array([null]);
-  var len$1 = $uI(xs$1.array$6["length"]);
-  var array$1 = $newArrayObject($d_Lupickle_Js$Value.getArrayOf(), [len$1]);
-  var elem$1$1 = 0;
-  elem$1$1 = 0;
-  var this$8 = new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(xs$1, 0, $uI(xs$1.array$6["length"]));
-  while (this$8.hasNext__Z()) {
-    var arg1$1 = this$8.next__O();
-    array$1.u[elem$1$1] = arg1$1;
-    elem$1$1 = ((1 + elem$1$1) | 0)
-  };
-  var this$9 = $m_Lupickle_default$();
-  var evidence$1 = this.$$outer$2.derive$macro$102__Lupickle_Types$Writer();
-  var evidence$9 = $as_Lupickle_Types$Writer($s_Lupickle_Generated$class__Tuple1W__Lupickle_Generated__O__O(this$9, evidence$1));
-  var rw = $s_Lupickle_Implicits$class__CaseW__Lupickle_Implicits__F1__AT__ALupickle_Js$Value__Lupickle_Types$Writer__Lupickle_Types$Writer(this$10, f, array, array$1, evidence$9);
-  var evidence$6 = new $c_s_reflect_ClassTag$ClassClassTag().init___jl_Class($d_Ldemo_ProfileScreen.getClassOf());
-  return $s_Lupickle_AttributeTagged$class__annotate__Lupickle_AttributeTagged__Lupickle_Types$Writer__T__s_reflect_ClassTag__Lupickle_Types$Writer(this$12, rw, "demo.ProfileScreen", evidence$6)
-});
 $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1.prototype.init___Ldemo_Demo$$anon$3 = (function($$outer) {
-  if (($$outer === null)) {
-    throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(null)
-  } else {
-    this.$$outer$2 = $$outer
-  };
   return this
 });
 $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1.prototype.apply__O = (function() {
@@ -21063,43 +21063,43 @@ var $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1 = new $TypeData().initClass
 });
 $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1.prototype.$classData = $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1;
 /** @constructor */
-function $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9() {
+function $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11() {
   $c_sr_AbstractFunction1.call(this)
 }
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9.prototype = new $h_sr_AbstractFunction1();
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9.prototype["constructor"] = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9;
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11.prototype = new $h_sr_AbstractFunction1();
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11.prototype["constructor"] = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11;
 /** @constructor */
-function $h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9() {
+function $h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11() {
   /*<skip>*/
 }
-$h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9.prototype = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9.prototype;
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9.prototype.apply__O__O = (function(v1) {
-  return this.apply__Ldemo_ProfileScreen__s_Option($as_Ldemo_ProfileScreen(v1))
+$h_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11.prototype = $c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11.prototype;
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11.prototype.apply__O__O = (function(v1) {
+  return this.apply__Ldemo_TestScreen__s_Option($as_Ldemo_TestScreen(v1))
 });
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9.prototype.apply__Ldemo_ProfileScreen__s_Option = (function(x$8) {
-  var this$1 = $m_Ldemo_ProfileScreen$().unapply__Ldemo_ProfileScreen__s_Option(x$8);
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11.prototype.init___Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1 = (function($$outer) {
+  return this
+});
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11.prototype.apply__Ldemo_TestScreen__s_Option = (function(x$9) {
+  var this$1 = $m_Ldemo_TestScreen$().unapply__Ldemo_TestScreen__s_Option(x$9);
   if (this$1.isEmpty__Z()) {
     return $m_s_None$()
   } else {
     var arg1 = this$1.get__O();
-    var _1 = $as_Ldemo_Users$User(arg1);
+    var _1 = $as_T(arg1);
     return new $c_s_Some().init___O(new $c_s_Tuple1().init___O(_1))
   }
 });
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9.prototype.init___Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1 = (function($$outer) {
-  return this
-});
-var $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9 = new $TypeData().initClass({
-  Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9: 0
-}, false, "demo.Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9", {
-  Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9: 1,
+var $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11 = new $TypeData().initClass({
+  Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11: 0
+}, false, "demo.Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11", {
+  Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11: 1,
   sr_AbstractFunction1: 1,
   O: 1,
   F1: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9.prototype.$classData = $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$9;
+$c_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11.prototype.$classData = $d_Ldemo_Demo$$anon$3$$anonfun$derive$macro$99$1$$anonfun$apply$11;
 /** @constructor */
 function $c_Ldemo_Demo$$anonfun$6() {
   $c_sr_AbstractFunction0.call(this)
@@ -21134,8 +21134,7 @@ var $d_Ldemo_Demo$$anonfun$6 = new $TypeData().initClass({
 $c_Ldemo_Demo$$anonfun$6.prototype.$classData = $d_Ldemo_Demo$$anonfun$6;
 /** @constructor */
 function $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1() {
-  $c_sr_AbstractFunction0.call(this);
-  this.$$outer$2 = null
+  $c_sr_AbstractFunction0.call(this)
 }
 $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1.prototype = new $h_sr_AbstractFunction0();
 $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1.prototype["constructor"] = $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1;
@@ -21145,181 +21144,6 @@ function $h_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1() {
 }
 $h_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1.prototype = $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1.prototype;
 $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1.prototype.apply__Lupickle_Types$Reader = (function() {
-  var this$12 = $m_Lupickle_default$();
-  var this$10 = $m_Lupickle_default$();
-  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(x$6$2) {
-    var x$6 = $as_s_Tuple1(x$6$2);
-    if ((x$6 !== null)) {
-      var x = $as_Ldemo_Users$User(x$6.$$und1$f);
-      return new $c_Ldemo_ProfileScreen().init___Ldemo_Users$User(x)
-    } else {
-      throw new $c_s_MatchError().init___O(x$6)
-    }
-  }));
-  var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array(["user"]);
-  var len = $uI(xs.array$6["length"]);
-  var array = $newArrayObject($d_T.getArrayOf(), [len]);
-  var elem$1 = 0;
-  elem$1 = 0;
-  var this$4 = new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(xs, 0, $uI(xs.array$6["length"]));
-  while (this$4.hasNext__Z()) {
-    var arg1 = this$4.next__O();
-    array.u[elem$1] = arg1;
-    elem$1 = ((1 + elem$1) | 0)
-  };
-  var xs$1 = new $c_sjs_js_WrappedArray().init___sjs_js_Array([null]);
-  var len$1 = $uI(xs$1.array$6["length"]);
-  var array$1 = $newArrayObject($d_Lupickle_Js$Value.getArrayOf(), [len$1]);
-  var elem$1$1 = 0;
-  elem$1$1 = 0;
-  var this$8 = new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(xs$1, 0, $uI(xs$1.array$6["length"]));
-  while (this$8.hasNext__Z()) {
-    var arg1$1 = this$8.next__O();
-    array$1.u[elem$1$1] = arg1$1;
-    elem$1$1 = ((1 + elem$1$1) | 0)
-  };
-  var this$9 = $m_Lupickle_default$();
-  var evidence$2 = this.$$outer$2.derive$macro$70__Lupickle_Types$Reader();
-  var evidence$8 = $as_Lupickle_Types$Reader($s_Lupickle_Generated$class__Tuple1R__Lupickle_Generated__O__O(this$9, evidence$2));
-  var rw = $s_Lupickle_Implicits$class__CaseR__Lupickle_Implicits__F1__AT__ALupickle_Js$Value__Lupickle_Types$Reader__Lupickle_Types$Reader(this$10, f, array, array$1, evidence$8);
-  var this$13 = this$12.Reader__Lupickle_Types$Reader$();
-  var _read = new $c_Lupickle_AttributeTagged$$anonfun$annotate$2().init___Lupickle_AttributeTagged__Lupickle_Types$Reader__T(this$12, rw, "demo.ProfileScreen");
-  return new $c_Lupickle_Types$Reader$$anon$3().init___Lupickle_Types$Reader$__s_PartialFunction(this$13, _read)
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1.prototype.init___Ldemo_Demo$$anonfun$6$$anon$2 = (function($$outer) {
-  if (($$outer === null)) {
-    throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(null)
-  } else {
-    this.$$outer$2 = $$outer
-  };
-  return this
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1.prototype.apply__O = (function() {
-  return this.apply__Lupickle_Types$Reader()
-});
-var $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1 = new $TypeData().initClass({
-  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1: 0
-}, false, "demo.Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1", {
-  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1: 1,
-  sr_AbstractFunction0: 1,
-  O: 1,
-  F0: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1.prototype.$classData = $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1;
-/** @constructor */
-function $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1() {
-  $c_sr_AbstractFunction0.call(this)
-}
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1.prototype = new $h_sr_AbstractFunction0();
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1.prototype["constructor"] = $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1;
-/** @constructor */
-function $h_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1() {
-  /*<skip>*/
-}
-$h_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1.prototype = $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1.prototype;
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1.prototype.apply__Lupickle_Types$Reader = (function() {
-  var this$10 = $m_Lupickle_default$();
-  var f = new $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7().init___Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1(this);
-  var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array(["name", "age", "quote", "img"]);
-  var len = $uI(xs.array$6["length"]);
-  var array = $newArrayObject($d_T.getArrayOf(), [len]);
-  var elem$1 = 0;
-  elem$1 = 0;
-  var this$4 = new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(xs, 0, $uI(xs.array$6["length"]));
-  while (this$4.hasNext__Z()) {
-    var arg1 = this$4.next__O();
-    array.u[elem$1] = arg1;
-    elem$1 = ((1 + elem$1) | 0)
-  };
-  var xs$1 = new $c_sjs_js_WrappedArray().init___sjs_js_Array([null, null, null, null]);
-  var len$1 = $uI(xs$1.array$6["length"]);
-  var array$1 = $newArrayObject($d_Lupickle_Js$Value.getArrayOf(), [len$1]);
-  var elem$1$1 = 0;
-  elem$1$1 = 0;
-  var this$8 = new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(xs$1, 0, $uI(xs$1.array$6["length"]));
-  while (this$8.hasNext__Z()) {
-    var arg1$1 = this$8.next__O();
-    array$1.u[elem$1$1] = arg1$1;
-    elem$1$1 = ((1 + elem$1$1) | 0)
-  };
-  var this$9 = $m_Lupickle_default$();
-  var evidence$17 = $m_Lupickle_default$().StringRW$1;
-  var evidence$18 = $m_Lupickle_default$().IntRW$1;
-  var evidence$19 = $m_Lupickle_default$().StringRW$1;
-  var evidence$20 = $m_Lupickle_default$().StringRW$1;
-  var evidence$8 = $as_Lupickle_Types$Reader($s_Lupickle_Generated$class__Tuple4R__Lupickle_Generated__O__O__O__O__O(this$9, evidence$17, evidence$18, evidence$19, evidence$20));
-  return $s_Lupickle_Implicits$class__CaseR__Lupickle_Implicits__F1__AT__ALupickle_Js$Value__Lupickle_Types$Reader__Lupickle_Types$Reader(this$10, f, array, array$1, evidence$8)
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1.prototype.init___Ldemo_Demo$$anonfun$6$$anon$2 = (function($$outer) {
-  return this
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1.prototype.apply__O = (function() {
-  return this.apply__Lupickle_Types$Reader()
-});
-var $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1 = new $TypeData().initClass({
-  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1: 0
-}, false, "demo.Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1", {
-  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1: 1,
-  sr_AbstractFunction0: 1,
-  O: 1,
-  F0: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1.prototype.$classData = $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1;
-/** @constructor */
-function $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7() {
-  $c_sr_AbstractFunction1.call(this)
-}
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7.prototype = new $h_sr_AbstractFunction1();
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7.prototype["constructor"] = $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7;
-/** @constructor */
-function $h_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7() {
-  /*<skip>*/
-}
-$h_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7.prototype = $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7.prototype;
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7.prototype.apply__O__O = (function(v1) {
-  return this.apply__T4__Ldemo_Users$User($as_T4(v1))
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7.prototype.init___Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1 = (function($$outer) {
-  return this
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7.prototype.apply__T4__Ldemo_Users$User = (function(derive$macro$94) {
-  var arg1 = derive$macro$94.$$und1$1;
-  var arg2 = derive$macro$94.$$und2$1;
-  var arg3 = derive$macro$94.$$und3$1;
-  var arg4 = derive$macro$94.$$und4$1;
-  var name = $as_T(arg1);
-  var age = $uI(arg2);
-  var quote = $as_T(arg3);
-  var img = $as_T(arg4);
-  return new $c_Ldemo_Users$User().init___T__I__T__T(name, age, quote, img)
-});
-var $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7 = new $TypeData().initClass({
-  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7: 0
-}, false, "demo.Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7", {
-  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7: 1,
-  sr_AbstractFunction1: 1,
-  O: 1,
-  F1: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7.prototype.$classData = $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$70$1$$anonfun$apply$7;
-/** @constructor */
-function $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1() {
-  $c_sr_AbstractFunction0.call(this)
-}
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1.prototype = new $h_sr_AbstractFunction0();
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1.prototype["constructor"] = $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1;
-/** @constructor */
-function $h_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1() {
-  /*<skip>*/
-}
-$h_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1.prototype = $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1.prototype;
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1.prototype.apply__Lupickle_Types$Reader = (function() {
   var this$12 = $m_Lupickle_default$();
   var this$10 = $m_Lupickle_default$();
   var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(x$7$2) {
@@ -21361,23 +21185,199 @@ $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1.prototype.apply__Lup
   var _read = new $c_Lupickle_AttributeTagged$$anonfun$annotate$2().init___Lupickle_AttributeTagged__Lupickle_Types$Reader__T(this$12, rw, "demo.TestScreen");
   return new $c_Lupickle_Types$Reader$$anon$3().init___Lupickle_Types$Reader$__s_PartialFunction(this$13, _read)
 });
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1.prototype.init___Ldemo_Demo$$anonfun$6$$anon$2 = (function($$outer) {
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1.prototype.init___Ldemo_Demo$$anonfun$6$$anon$2 = (function($$outer) {
   return this
 });
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1.prototype.apply__O = (function() {
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1.prototype.apply__O = (function() {
   return this.apply__Lupickle_Types$Reader()
 });
-var $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1 = new $TypeData().initClass({
-  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1: 0
-}, false, "demo.Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1", {
-  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1: 1,
+var $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1 = new $TypeData().initClass({
+  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1: 0
+}, false, "demo.Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1", {
+  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1: 1,
   sr_AbstractFunction0: 1,
   O: 1,
   F0: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1.prototype.$classData = $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$90$1;
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1.prototype.$classData = $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$67$1;
+/** @constructor */
+function $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1() {
+  $c_sr_AbstractFunction0.call(this);
+  this.$$outer$2 = null
+}
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1.prototype = new $h_sr_AbstractFunction0();
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1.prototype["constructor"] = $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1;
+/** @constructor */
+function $h_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1() {
+  /*<skip>*/
+}
+$h_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1.prototype = $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1.prototype;
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1.prototype.apply__Lupickle_Types$Reader = (function() {
+  var this$12 = $m_Lupickle_default$();
+  var this$10 = $m_Lupickle_default$();
+  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(x$6$2) {
+    var x$6 = $as_s_Tuple1(x$6$2);
+    if ((x$6 !== null)) {
+      var x = $as_Ldemo_Users$User(x$6.$$und1$f);
+      return new $c_Ldemo_ProfileScreen().init___Ldemo_Users$User(x)
+    } else {
+      throw new $c_s_MatchError().init___O(x$6)
+    }
+  }));
+  var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array(["user"]);
+  var len = $uI(xs.array$6["length"]);
+  var array = $newArrayObject($d_T.getArrayOf(), [len]);
+  var elem$1 = 0;
+  elem$1 = 0;
+  var this$4 = new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(xs, 0, $uI(xs.array$6["length"]));
+  while (this$4.hasNext__Z()) {
+    var arg1 = this$4.next__O();
+    array.u[elem$1] = arg1;
+    elem$1 = ((1 + elem$1) | 0)
+  };
+  var xs$1 = new $c_sjs_js_WrappedArray().init___sjs_js_Array([null]);
+  var len$1 = $uI(xs$1.array$6["length"]);
+  var array$1 = $newArrayObject($d_Lupickle_Js$Value.getArrayOf(), [len$1]);
+  var elem$1$1 = 0;
+  elem$1$1 = 0;
+  var this$8 = new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(xs$1, 0, $uI(xs$1.array$6["length"]));
+  while (this$8.hasNext__Z()) {
+    var arg1$1 = this$8.next__O();
+    array$1.u[elem$1$1] = arg1$1;
+    elem$1$1 = ((1 + elem$1$1) | 0)
+  };
+  var this$9 = $m_Lupickle_default$();
+  var evidence$2 = this.$$outer$2.derive$macro$82__Lupickle_Types$Reader();
+  var evidence$8 = $as_Lupickle_Types$Reader($s_Lupickle_Generated$class__Tuple1R__Lupickle_Generated__O__O(this$9, evidence$2));
+  var rw = $s_Lupickle_Implicits$class__CaseR__Lupickle_Implicits__F1__AT__ALupickle_Js$Value__Lupickle_Types$Reader__Lupickle_Types$Reader(this$10, f, array, array$1, evidence$8);
+  var this$13 = this$12.Reader__Lupickle_Types$Reader$();
+  var _read = new $c_Lupickle_AttributeTagged$$anonfun$annotate$2().init___Lupickle_AttributeTagged__Lupickle_Types$Reader__T(this$12, rw, "demo.ProfileScreen");
+  return new $c_Lupickle_Types$Reader$$anon$3().init___Lupickle_Types$Reader$__s_PartialFunction(this$13, _read)
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1.prototype.init___Ldemo_Demo$$anonfun$6$$anon$2 = (function($$outer) {
+  if (($$outer === null)) {
+    throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(null)
+  } else {
+    this.$$outer$2 = $$outer
+  };
+  return this
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1.prototype.apply__O = (function() {
+  return this.apply__Lupickle_Types$Reader()
+});
+var $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1 = new $TypeData().initClass({
+  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1: 0
+}, false, "demo.Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1", {
+  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1: 1,
+  sr_AbstractFunction0: 1,
+  O: 1,
+  F0: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1.prototype.$classData = $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$79$1;
+/** @constructor */
+function $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1() {
+  $c_sr_AbstractFunction0.call(this)
+}
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1.prototype = new $h_sr_AbstractFunction0();
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1.prototype["constructor"] = $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1;
+/** @constructor */
+function $h_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1() {
+  /*<skip>*/
+}
+$h_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1.prototype = $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1.prototype;
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1.prototype.apply__Lupickle_Types$Reader = (function() {
+  var this$10 = $m_Lupickle_default$();
+  var f = new $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7().init___Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1(this);
+  var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array(["name", "age", "quote", "img"]);
+  var len = $uI(xs.array$6["length"]);
+  var array = $newArrayObject($d_T.getArrayOf(), [len]);
+  var elem$1 = 0;
+  elem$1 = 0;
+  var this$4 = new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(xs, 0, $uI(xs.array$6["length"]));
+  while (this$4.hasNext__Z()) {
+    var arg1 = this$4.next__O();
+    array.u[elem$1] = arg1;
+    elem$1 = ((1 + elem$1) | 0)
+  };
+  var xs$1 = new $c_sjs_js_WrappedArray().init___sjs_js_Array([null, null, null, null]);
+  var len$1 = $uI(xs$1.array$6["length"]);
+  var array$1 = $newArrayObject($d_Lupickle_Js$Value.getArrayOf(), [len$1]);
+  var elem$1$1 = 0;
+  elem$1$1 = 0;
+  var this$8 = new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(xs$1, 0, $uI(xs$1.array$6["length"]));
+  while (this$8.hasNext__Z()) {
+    var arg1$1 = this$8.next__O();
+    array$1.u[elem$1$1] = arg1$1;
+    elem$1$1 = ((1 + elem$1$1) | 0)
+  };
+  var this$9 = $m_Lupickle_default$();
+  var evidence$17 = $m_Lupickle_default$().StringRW$1;
+  var evidence$18 = $m_Lupickle_default$().IntRW$1;
+  var evidence$19 = $m_Lupickle_default$().StringRW$1;
+  var evidence$20 = $m_Lupickle_default$().StringRW$1;
+  var evidence$8 = $as_Lupickle_Types$Reader($s_Lupickle_Generated$class__Tuple4R__Lupickle_Generated__O__O__O__O__O(this$9, evidence$17, evidence$18, evidence$19, evidence$20));
+  return $s_Lupickle_Implicits$class__CaseR__Lupickle_Implicits__F1__AT__ALupickle_Js$Value__Lupickle_Types$Reader__Lupickle_Types$Reader(this$10, f, array, array$1, evidence$8)
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1.prototype.init___Ldemo_Demo$$anonfun$6$$anon$2 = (function($$outer) {
+  return this
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1.prototype.apply__O = (function() {
+  return this.apply__Lupickle_Types$Reader()
+});
+var $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1 = new $TypeData().initClass({
+  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1: 0
+}, false, "demo.Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1", {
+  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1: 1,
+  sr_AbstractFunction0: 1,
+  O: 1,
+  F0: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1.prototype.$classData = $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1;
+/** @constructor */
+function $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7() {
+  $c_sr_AbstractFunction1.call(this)
+}
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7.prototype = new $h_sr_AbstractFunction1();
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7.prototype["constructor"] = $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7;
+/** @constructor */
+function $h_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7() {
+  /*<skip>*/
+}
+$h_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7.prototype = $c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7.prototype;
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7.prototype.apply__O__O = (function(v1) {
+  return this.apply__T4__Ldemo_Users$User($as_T4(v1))
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7.prototype.init___Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1 = (function($$outer) {
+  return this
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7.prototype.apply__T4__Ldemo_Users$User = (function(derive$macro$94) {
+  var arg1 = derive$macro$94.$$und1$1;
+  var arg2 = derive$macro$94.$$und2$1;
+  var arg3 = derive$macro$94.$$und3$1;
+  var arg4 = derive$macro$94.$$und4$1;
+  var name = $as_T(arg1);
+  var age = $uI(arg2);
+  var quote = $as_T(arg3);
+  var img = $as_T(arg4);
+  return new $c_Ldemo_Users$User().init___T__I__T__T(name, age, quote, img)
+});
+var $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7 = new $TypeData().initClass({
+  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7: 0
+}, false, "demo.Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7", {
+  Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7: 1,
+  sr_AbstractFunction1: 1,
+  O: 1,
+  F1: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7.prototype.$classData = $d_Ldemo_Demo$$anonfun$6$$anon$2$$anonfun$derive$macro$82$1$$anonfun$apply$7;
 /** @constructor */
 function $c_Ldemo_ProfileScreen$() {
   $c_sr_AbstractFunction1.call(this)
