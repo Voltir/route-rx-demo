@@ -5,6 +5,7 @@ import demo.screens.Common._
 import framework.Framework._
 import scala.scalajs.js
 import scalatags.JsDom.all._
+
 object Test {
 
   val thing: Var[String] = Var("")

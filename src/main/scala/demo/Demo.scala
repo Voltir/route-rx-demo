@@ -21,15 +21,16 @@ object Demo extends js.JSApp with locallink.implicits.Defaults {
 
   val router = Router.generateWithPrefix[Screen](IndexScreen, "local-link-demo")
 
-  private lazy val current: Rx[HtmlTag] = Rx {
+  //Uses Rx[Frag] instead of Rx[HtmlTag] because while most of the screen() functions return a static HtmlTag
+  //Test.screen(...) does not. It returns a Rx[HtmlTag]. Both HtmlTag and Rx[HtmlTag] are implicitly
+  //convertible to a scalatags' Frag, but scalac can't figure that out without the explicit type
+  //annotation on current.
+  private lazy val current: Rx[Frag] = Rx {
     router.current() match {
       case IndexScreen => screens.Index.screen()
       case AboutScreen => screens.About.screen()
       case UsersScreen => screens.Users.screen()
-      case TestScreen(inp) => {
-        val dynamicScreen = screens.Test.screen(inp)
-        dynamicScreen()
-      }
+      case TestScreen(inp) => screens.Test.screen(inp)
       case ProfileScreen(user) => screens.Profile.screen(user)
     }
   }
