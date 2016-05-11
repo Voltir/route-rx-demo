@@ -13,13 +13,14 @@ sealed trait Screen
 case object IndexScreen extends Screen
 case object AboutScreen extends Screen
 case object UsersScreen extends Screen
+case object DebugScreen extends Screen
 case class TestScreen(inp: String) extends Screen
 case class ProfileScreen(user: User) extends Screen
 
 //Uses the default UrlParts provided in locallink.implicits
 object Demo extends js.JSApp with routerx.implicits.Defaults {
 
-  val router = Router.generateWithPrefix[Screen](IndexScreen, "local-link-demo")
+  val router = Router.generateWithPrefix[Screen](DebugScreen, "router-rx-demo")
 
   //Uses Rx[Frag] instead of Rx[HtmlTag] because while most of the screen() functions return a static HtmlTag
   //Test.screen(...) does not. It returns a Rx[HtmlTag]. Both HtmlTag and Rx[HtmlTag] are implicitly
@@ -32,6 +33,7 @@ object Demo extends js.JSApp with routerx.implicits.Defaults {
       case UsersScreen => screens.Users.screen()
       case TestScreen(inp) => screens.Test.screen(inp)
       case ProfileScreen(user) => screens.Profile.screen(user)
+      case DebugScreen => screens.Debug.screen()
     }
   }
 

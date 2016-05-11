@@ -13,7 +13,7 @@ object Index {
 
   def screen(): HtmlTag = {
     page(
-      row(columns("twelve")(h3("Local Links Demo"))),
+      row(columns("twelve")(h3("Router.rx Demo"))),
       row(columns("tweleve")(p(info)))
     )
   }
