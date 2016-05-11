@@ -12,7 +12,7 @@ object Debug {
 
   val nope = row(
     Rx { println("Ok.."); p(id:="nope")(foo()*2) }
-  ).render
+  )
 
   val works = Rx {
     row(p(foo()*2))
