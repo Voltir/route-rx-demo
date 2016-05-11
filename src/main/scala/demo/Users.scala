@@ -2,7 +2,7 @@ package demo
 
 //Fake Data to represent a "User" type that might be common in many projects
 
-import locallink._
+import routerx._
 
 import scala.concurrent.{Future, ExecutionContext}
 

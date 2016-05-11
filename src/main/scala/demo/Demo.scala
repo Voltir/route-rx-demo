@@ -1,6 +1,6 @@
 package demo
 
-import locallink._
+import routerx._
 import scalajs.concurrent.JSExecutionContext.Implicits.queue
 import scala.scalajs.js
 import rx._
@@ -17,7 +17,7 @@ case class TestScreen(inp: String) extends Screen
 case class ProfileScreen(user: User) extends Screen
 
 //Uses the default UrlParts provided in locallink.implicits
-object Demo extends js.JSApp with locallink.implicits.Defaults {
+object Demo extends js.JSApp with routerx.implicits.Defaults {
 
   val router = Router.generateWithPrefix[Screen](IndexScreen, "local-link-demo")
 
